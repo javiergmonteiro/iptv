@@ -1,11 +1,15 @@
-Revision 2026-11-02 01:55 UTC: 21 en la lista, 0 ocultos, 21 total
+Revision 2026-11-02 02:05 UTC: 13 en la lista, 8 ocultos, 21 total
 
 Fallaron esta vez (siguen en la lista):
-  [?] Retro Toons  (HTTP 404, fallo 1/2)
-  [?] Canal Retrox TV  (HTTP 404, fallo 1/2)
-  [?] Canal de la Música  (HTTP 403, fallo 1/2)
-  [?] Radio La 100  (URLError, fallo 1/2)
-  [?] Retro Plus 1  (HTTP 404, fallo 1/2)
-  [?] Retro Plus 2  (HTTP 404, fallo 1/2)
-  [?] Magic Kids  (HTTP 404, fallo 1/2)
-  [?] Cartoon Network Clasico LAT  (HTTP 404, fallo 1/2)
+  [?] Canal 9 Mendoza  (HTTP 403, fallo 1/2)
+  [?] TaltalTV Clasico  (HTTP 502, fallo 1/2)
+
+Ocultos (caidos):
+  [X] Retro Toons  (HTTP 404, 2 fallos seguidos)
+  [X] Canal Retrox TV  (HTTP 404, 2 fallos seguidos)
+  [X] Canal de la Música  (HTTP 403, 2 fallos seguidos)
+  [X] Radio La 100  (URLError, 2 fallos seguidos)
+  [X] Retro Plus 1  (HTTP 404, 2 fallos seguidos)
+  [X] Retro Plus 2  (HTTP 404, 2 fallos seguidos)
+  [X] Magic Kids  (HTTP 404, 2 fallos seguidos)
+  [X] Cartoon Network Clasico LAT  (HTTP 404, 2 fallos seguidos)

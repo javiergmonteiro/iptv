@@ -1,20 +1,8 @@
 #EXTM3U
-#EXTINF:0 tvg-country="AR" tvg-logo="" group-title="Animación",Retro Toons
-https://live20.bozztv.com/akamaissh101/ssh101/retrotoons/chunks.m3u8
 #EXTINF:0 tvg-country="AR" tvg-logo="" group-title="Argentina",Canal 9 Mendoza
 https://unlimited1-saopaulo.dps.live/televidaar/televidaar.smil/televidaar/livestream1/chunks.m3u8
-#EXTINF:0 tvg-country="AR" tvg-logo="" group-title="Animación",Canal Retrox TV
-https://lbgo.bozztv.com/ssh101/ssh101/retyroxtv/chunks.m3u8
-#EXTINF:-1 tvg-id="CANAL DE LA MUSICA.ar" tvg-name="Canal de la Música" group-title="Música" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/d/d0/Logocmtvargentina.png",Canal de la Música
-https://g1.mc-slo.transport.edge-access.net/b08/ngrp:CM_CanaldelaMusica-100044_all/Playlist.m3u8?sense=true
-#EXTINF:-1 tvg-id=" tvg-logo="https://files.catbox.moe/kytmm2.png" group-title="Música",Radio La 100
-https://live-05-13-la100.vodgc.net/live-05-13-la100/index.m3u8
 #EXTINF:0 tvg-id=" tvg-logo="" group-title="Animación",Locomotion
 https://lbgo.bozztv.com/ssh101/ssh101/myevent2025/playlist.m3u8
-#EXTINF:0 tvg-id=" tvg-logo="" group-title="Música",Retro Plus 1
-https://scl.edge.grupoz.cl/retroplustvuno/live/chunklist_w1463797368.m3u8
-#EXTINF:0 tvg-id=" tvg-logo="" group-title="Música",Retro Plus 2
-https://scl.edge.grupoz.cl/retroplustvdos/live/chunklist_w349133620.m3u8
 #EXTINF:0 tvg-id=" tvg-logo="" group-title="Música",Retro Plus 3
 https://live2.tensila.com/1-1-1.power-tv/hls/live/mystream.m3u8
 #EXTINF:0 tvg-id=" tvg-logo="" group-title="Animación",Canal Dragon Ball
@@ -29,15 +17,11 @@ https://lbgo.bozztv.com/ssh101/ssh101/gogoplay/playlist.m3u8
 https://lbgo.bozztv.com/ssh101/ssh101/simplat/playlist.m3u8
 #EXTINF:0 tvg-id=" tvg-logo="" group-title="",Mix Bolivia TV
 https://lbgo.bozztv.com/ssh101/ssh101/mixboliviatvhd/playlist.m3u8
-#EXTINF:0 tvg-id=" tvg-logo="" group-title="Animación",Magic Kids
-https://183.bozztv.com/giatv/giatv-magicplus/magicplus/playlist.m3u8
 #EXTINF:0 tvg-id=" tvg-logo="" group-title="Animación",Retro Magico
 https://183.bozztv.com/giatv/giatv-retromagicochnl/retromagicochnl/playlist.m3u8
 #EXTINF:0 tvg-id=" tvg-logo="" group-title="Animación",TaltalTV Clasico
 https://live20.bozztv.com/giatvplayout7/giatv-210394/tracks-v1a1/mono.ts.m3u8
 #EXTINF:0 tvg-id=" tvg-logo="" group-title="Animación",Moni TV peliculas
 https://lbgo.bozztv.com/ssh101/ssh101/monitvhd/playlist.m3u8
-#EXTINF:0 tvg-id=" tvg-logo="" group-title="Animación",Cartoon Network Clasico LAT
-https://live20.bozztv.com/akamaissh101/ssh101/cartoonclasico/playlist.m3u8
 #EXTINF:0 tvg-id=" tvg-logo="" group-title="Animación",Random Anime SUB
 https://live20.bozztv.com/giatvplayout/giatvvod/giatv/movies/pvod/210506/CHOTTO_DAKE_AI___EP01.mp4/playlist.m3u8
