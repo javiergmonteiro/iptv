@@ -89,6 +89,10 @@ def probar(url_kodi):
                     return False, "variante sin contenido"
         return True, f"HTTP {status}"
     except urllib.error.HTTPError as e:
+        if e.code == 403:
+            # Suele ser bloqueo por pais (GitHub revisa desde EE.UU.),
+            # no que el canal este caido: no lo ocultamos.
+            return None, "HTTP 403, posible bloqueo por pais"
         return False, f"HTTP {e.code}"
     except Exception as e:  # timeout, DNS, SSL...
         return False, type(e).__name__
@@ -104,9 +108,12 @@ def main():
     with ThreadPoolExecutor(max_workers=10) as ex:
         resultados = list(ex.map(lambda c: probar(c[1]), canales))
 
-    vivos, ocultos, avisos = [], [], []
+    vivos, ocultos, avisos, dudosos = [], [], [], []
     nuevo_estado = {}
     for (extinf, url), (ok, detalle) in zip(canales, resultados):
+        if ok is None:
+            dudosos.append(f"  [~] {nombre(extinf, url)}  ({detalle})")
+            ok = True
         fallos = 0 if ok else estado.get(url, {}).get("fallos", 0) + 1
         nuevo_estado[url] = {"fallos": fallos, "ultimo": detalle}
         n = nombre(extinf, url)
@@ -124,6 +131,8 @@ def main():
     informe = [f"Revision {ahora}: {len(vivos)} en la lista, {len(ocultos)} ocultos, {len(canales)} total"]
     if avisos:
         informe += ["", "Fallaron esta vez (siguen en la lista):"] + avisos
+    if dudosos:
+        informe += ["", "No se pudieron verificar (siguen en la lista):"] + dudosos
     if ocultos:
         informe += ["", "Ocultos (caidos):"] + ocultos
     informe_path.write_text("\n".join(informe) + "\n", encoding="utf-8")
