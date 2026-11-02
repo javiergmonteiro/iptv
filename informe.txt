@@ -1,0 +1,11 @@
+Revision 2026-11-02 01:55 UTC: 21 en la lista, 0 ocultos, 21 total
+
+Fallaron esta vez (siguen en la lista):
+  [?] Retro Toons  (HTTP 404, fallo 1/2)
+  [?] Canal Retrox TV  (HTTP 404, fallo 1/2)
+  [?] Canal de la Música  (HTTP 403, fallo 1/2)
+  [?] Radio La 100  (URLError, fallo 1/2)
+  [?] Retro Plus 1  (HTTP 404, fallo 1/2)
+  [?] Retro Plus 2  (HTTP 404, fallo 1/2)
+  [?] Magic Kids  (HTTP 404, fallo 1/2)
+  [?] Cartoon Network Clasico LAT  (HTTP 404, fallo 1/2)

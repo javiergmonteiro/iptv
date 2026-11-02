@@ -1,0 +1,28 @@
+name: Revisar canales
+
+on:
+  schedule:
+    - cron: "0 */6 * * *"   # cada 6 horas
+  workflow_dispatch:         # boton "Run workflow" para correrlo a mano
+  push:
+    paths: ["lista_maestra.m3u"]
+
+permissions:
+  contents: write
+
+jobs:
+  revisar:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: python check_m3u.py
+      - name: Guardar resultados
+        run: |
+          git config user.name "revisor-m3u"
+          git config user.email "revisor-m3u@users.noreply.github.com"
+          git add lista.m3u estado.json informe.txt
+          git diff --cached --quiet || git commit -m "Revision automatica de canales"
+          git push
