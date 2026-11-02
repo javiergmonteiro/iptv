@@ -1,6 +1,4 @@
 #EXTM3U
-#EXTINF:0 tvg-country="AR" tvg-logo="" group-title="Argentina",Canal 9 Mendoza
-https://unlimited1-saopaulo.dps.live/televidaar/televidaar.smil/televidaar/livestream1/chunks.m3u8
 #EXTINF:0 tvg-id=" tvg-logo="" group-title="Animación",Locomotion
 https://lbgo.bozztv.com/ssh101/ssh101/myevent2025/playlist.m3u8
 #EXTINF:0 tvg-id=" tvg-logo="" group-title="Música",Retro Plus 3
