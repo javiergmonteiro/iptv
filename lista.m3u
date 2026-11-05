@@ -75,3 +75,11 @@ https://unlimited1-cl-isp.dps.live/laclavetv/laclavetv.smil/playlist.m3u8
 https://mdstrm.com/live-stream-playlist/67ed8a8d6db4af9a0188555c.m3u8
 #EXTINF:-1 tvg-id="RadioPudahuel.cl" tvg-logo="" group-title="Música",Radio Pudahuel
 https://unlimited2-cl-isp.dps.live/pudahueltv/pudahueltv.smil/playlist.m3u8
+#EXTINF:-1 tvg-id="CiudadMagica.ar" tvg-logo="" group-title="Argentina",Ciudad Mágica
+https://lbgo.bozztv.com/ssh101/ssh101/verycoolfgr/playlist.m3u8
+#EXTINF:-1 tvg-id="Canal3KMKTV.cr" tvg-logo="" group-title="Música",Canal 3 KMK TV
+https://live20.bozztv.com/giatv/giatv-KMKTV/KMKTV/chunks.m3u8
+#EXTINF:-1 tvg-id="GexTV.cr" tvg-logo="" group-title="Música",Gex TV
+https://live20.bozztv.com/akamaissh101/ssh101/gextvaccess/playlist.m3u8
+#EXTINF:-1 tvg-id="MontonesTV.do" tvg-logo="" group-title="Música",Montones TV
+https://lbgo.bozztv.com/ssh101/ssh101/montonestv1/playlist.m3u8
