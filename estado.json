@@ -1,7 +1,22 @@
 {
  "https://www.youtube.com/live/434nAi7ibV4": {
   "fallos": 0,
-  "ultimo": "Yu-Gi-Oh! Duel Monsters en Español [zpfvKzuCB-k]",
+  "ultimo": "Yu-Gi-Oh! Duel Monsters en Español [434nAi7ibV4]",
+  "video_id": "434nAi7ibV4"
+ },
+ "https://www.youtube.com/live/zpfvKzuCB-k": {
+  "fallos": 0,
+  "ultimo": "Yu-Gi-Oh! GX en Español Latino [zpfvKzuCB-k]",
   "video_id": "zpfvKzuCB-k"
+ },
+ "https://www.youtube.com/@LofiGirl": {
+  "fallos": 0,
+  "ultimo": "christmas lofi radio 🎄 cozy ambience to relax to [4t4AQ15yj1M]",
+  "video_id": "4t4AQ15yj1M"
+ },
+ "https://www.youtube.com/@aljazeeraenglish": {
+  "fallos": 0,
+  "ultimo": "🔴 Al Jazeera English | Live [gCNeDWCI0vo]",
+  "video_id": "gCNeDWCI0vo"
  }
 }
