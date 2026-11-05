@@ -1,0 +1,22 @@
+== https://www.youtube.com/@LofiGirl/live
+final=https://www.youtube.com/@LofiGirl/live len=1575756
+canonical: <link rel="canonical" href="undefined">
+"isLive":true: 'uns":[{"text":"2394"},{"text":" usuarios viéndolo ahora"}]},"isLive":true,"originalViewCount":"2394"}},"videoActions":{"menuRenderer":{"item'
+"isLiveNow":true: 'NO'
+isLiveContent: 'NO'
+consent.youtube: 'NO'
+Sign in to confirm: 'NO'
+"videoId":": 'ype":"WEB_PAGE_TYPE_WATCH","rootVe":3832}},"watchEndpoint":{"videoId":"8gJ716dhStg","params":"EAEYAcABAdoBBAgBKgC4BQHyBQIKAA%3D%3D","playerP'
+og:url: 'NO'
+watch?v=: 'EJZcnDA==","commandMetadata":{"webCommandMetadata":{"url":"/watch?v=8gJ716dhStg\\u0026start_radio=1\\u0026pp=QAFIAQ%3D%3D","webPageType":"WEB_'
+== https://www.youtube.com/@aljazeeraenglish/live
+final=https://www.youtube.com/@aljazeeraenglish/live len=1316462
+canonical: <link rel="canonical" href="undefined">
+"isLive":true: 'uns":[{"text":"7732"},{"text":" usuarios viéndolo ahora"}]},"isLive":true,"extraShortViewCount":{"simpleText":"7,7\xa0K"},"entityKey":"EgtnQ05l'
+"isLiveNow":true: 'NO'
+isLiveContent: 'NO'
+consent.youtube: 'NO'
+Sign in to confirm: 'NO'
+"videoId":": 'ype":"WEB_PAGE_TYPE_WATCH","rootVe":3832}},"watchEndpoint":{"videoId":"4RoipzXRhLE","params":"EAEYAdoBBAgBKgDyBQIKAA%3D%3D","playerParams":"'
+og:url: 'NO'
+watch?v=: 'EtY1Gzg==","commandMetadata":{"webCommandMetadata":{"url":"/watch?v=4RoipzXRhLE\\u0026pp=QAFIAQ%3D%3D","webPageType":"WEB_PAGE_TYPE_WATCH","r'
