@@ -1,6 +1,6 @@
 {
  "https://live20.bozztv.com/akamaissh101/ssh101/retrotoons/chunks.m3u8": {
-  "fallos": 18,
+  "fallos": 19,
   "ultimo": "HTTP 404"
  },
  "https://unlimited1-saopaulo.dps.live/televidaar/televidaar.smil/televidaar/livestream1/chunks.m3u8": {
@@ -8,7 +8,7 @@
   "ultimo": "HTTP 403, posible bloqueo por pais"
  },
  "https://lbgo.bozztv.com/ssh101/ssh101/retyroxtv/chunks.m3u8": {
-  "fallos": 18,
+  "fallos": 19,
   "ultimo": "HTTP 404"
  },
  "https://g1.mc-slo.transport.edge-access.net/b08/ngrp:CM_CanaldelaMusica-100044_all/Playlist.m3u8?sense=true": {
@@ -24,11 +24,11 @@
   "ultimo": "HTTP 200"
  },
  "https://scl.edge.grupoz.cl/retroplustvuno/live/chunklist_w1463797368.m3u8": {
-  "fallos": 18,
+  "fallos": 19,
   "ultimo": "HTTP 404"
  },
  "https://scl.edge.grupoz.cl/retroplustvdos/live/chunklist_w349133620.m3u8": {
-  "fallos": 18,
+  "fallos": 19,
   "ultimo": "HTTP 404"
  },
  "https://live2.tensila.com/1-1-1.power-tv/hls/live/mystream.m3u8": {
@@ -76,7 +76,7 @@
   "ultimo": "HTTP 200"
  },
  "https://live20.bozztv.com/akamaissh101/ssh101/cartoonclasico/playlist.m3u8": {
-  "fallos": 18,
+  "fallos": 19,
   "ultimo": "HTTP 404"
  },
  "https://627bb251f23c7.streamlock.net:444/ExtremaKids/ExtremaKids/playlist.m3u8": {
@@ -196,5 +196,45 @@
   "fallos": 0,
   "ultimo": "Yu-Gi-Oh! GX en Español Latino [zpfvKzuCB-k]",
   "video_id": "zpfvKzuCB-k"
+ },
+ "https://www.youtube.com/@todonoticias": {
+  "fallos": 0,
+  "ultimo": "TN EN VIVO - SEGUÍ LA TRANSMISIÓN EN VIVO DE TODO NOTICIAS [cb12KmMMDJA]",
+  "video_id": "cb12KmMMDJA"
+ },
+ "https://www.youtube.com/@c5n": {
+  "fallos": 0,
+  "ultimo": "C5N EN VIVO | Toda la información en un solo lugar | Seguí l [rZtTUCxpPuI]",
+  "video_id": "rZtTUCxpPuI"
+ },
+ "https://www.youtube.com/@lanacion": {
+  "fallos": 0,
+  "ultimo": "LN+ EN VIVO | Últimas noticias de Argentina y el mundo [FEWZjXJ7M0c]",
+  "video_id": "FEWZjXJ7M0c"
+ },
+ "https://www.youtube.com/@cronicatv": {
+  "fallos": 0,
+  "ultimo": "CRÓNICA EN VIVO LAS 24 HORAS [hw4uHyct4vg]",
+  "video_id": "hw4uHyct4vg"
+ },
+ "https://www.youtube.com/@Telefenoticias": {
+  "fallos": 0,
+  "ultimo": "EN VIVO 🔴 TELEFE NOTICIAS 24HS DE INFORMACIÓN [XhAYcYpPzTc]",
+  "video_id": "XhAYcYpPzTc"
+ },
+ "https://www.youtube.com/live/iaooxPL8G_I": {
+  "fallos": 0,
+  "ultimo": "🔴 CANAL 26 EN VIVO EN 4K - Noticias internacionales [iaooxPL8G_I]",
+  "video_id": "iaooxPL8G_I"
+ },
+ "https://www.youtube.com/live/zcWXboTnous": {
+  "fallos": 0,
+  "ultimo": "🔴 AMÉRICA TV INTERNACIONAL EN VIVO 📺 [zcWXboTnous]",
+  "video_id": "zcWXboTnous"
+ },
+ "https://www.youtube.com/@canalrural": {
+  "fallos": 0,
+  "ultimo": "CANAL RURAL EN VIVO [w78Zr0J-dIs]",
+  "video_id": "w78Zr0J-dIs"
  }
 }
