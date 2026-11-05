@@ -1,4 +1,8 @@
-Revision 2026-11-05 04:24 UTC: 42 en la lista, 5 ocultos, 47 total
+Revision 2026-11-05 04:38 UTC: 44 en la lista, 5 ocultos, 49 total
+
+Directos de YouTube:
+  [YT] Yu-Gi-Oh! Duel Monsters  (Yu-Gi-Oh! Duel Monsters en Español [434nAi7ibV4])
+  [YT] Yu-Gi-Oh! GX  (Yu-Gi-Oh! GX en Español Latino [zpfvKzuCB-k])
 
 No se pudieron verificar (siguen en la lista):
   [~] Canal 9 Mendoza  (HTTP 403, posible bloqueo por pais)
@@ -7,8 +11,8 @@ No se pudieron verificar (siguen en la lista):
   [~] Telefe Tucumán  (HTTP 403, posible bloqueo por pais)
 
 Ocultos (caidos):
-  [X] Retro Toons  (HTTP 404, 17 fallos seguidos)
-  [X] Canal Retrox TV  (HTTP 404, 17 fallos seguidos)
-  [X] Retro Plus 1  (HTTP 404, 17 fallos seguidos)
-  [X] Retro Plus 2  (HTTP 404, 17 fallos seguidos)
-  [X] Cartoon Network Clasico LAT  (HTTP 404, 17 fallos seguidos)
+  [X] Retro Toons  (HTTP 404, 18 fallos seguidos)
+  [X] Canal Retrox TV  (HTTP 404, 18 fallos seguidos)
+  [X] Retro Plus 1  (HTTP 404, 18 fallos seguidos)
+  [X] Retro Plus 2  (HTTP 404, 18 fallos seguidos)
+  [X] Cartoon Network Clasico LAT  (HTTP 404, 18 fallos seguidos)
