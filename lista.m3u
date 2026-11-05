@@ -103,3 +103,7 @@ plugin://plugin.video.youtube/play/?video_id=iaooxPL8G_I
 plugin://plugin.video.youtube/play/?video_id=zcWXboTnous
 #EXTINF:-1 tvg-logo="" group-title="YouTube Noticias",Canal Rural
 plugin://plugin.video.youtube/play/?video_id=w78Zr0J-dIs
+#EXTINF:-1 tvg-logo="" group-title="YouTube Animación",Tom y Jerry Clásicos
+plugin://plugin.video.youtube/play/?video_id=400k2SKoeh4
+#EXTINF:-1 tvg-logo="" group-title="YouTube Animación",Popeye
+plugin://plugin.video.youtube/play/?video_id=H3uNIvTive4
