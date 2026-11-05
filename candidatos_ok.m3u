@@ -1,49 +1,23 @@
 #EXTM3U
-#EXTINF:-1 tvg-id="La100.ar" tvg-logo="" group-title="Música",Radio La 100
-https://mdstrm.com/live-stream-playlist/68b74fd1d6512526f1f7c75a.m3u8
-#EXTINF:-1 tvg-id="A24.ar" tvg-logo="" group-title="Argentina",A24 (alt 1)
-http://138.59.227.20:8000/play/a05u/index.m3u8
-#EXTINF:-1 tvg-id="A24.ar" tvg-logo="" group-title="Argentina",A24 (alt 2)
-https://g1.proy-hor.transport.edge-access.net/a15/ngrp:a24-100056_all/Playlist.m3u8|Referer=https://vmf.edge-apps.net/&User-Agent=Mozilla%2F5.0%20%28Windows%20NT%2010.0%20Win64%20x64%29%20AppleWebKit%2F537.36%20%28KHTML%20like%20Gecko%29%20Chrome%2F109.0.0.0%20Safari%2F537.36
-#EXTINF:-1 tvg-id="ElTrece.ar" tvg-logo="" group-title="Argentina",El Trece (alt 1)
-https://livetrx01.vodgc.net/eltrecetv/index.m3u8|Referer=https://vodgc.net
-#EXTINF:-1 tvg-id="ElTrece.ar" tvg-logo="" group-title="Argentina",El Trece (alt 2)
-http://190.108.83.69:8000/play/a01d/index.m3u8
-#EXTINF:-1 tvg-id="TyCSports.ar" tvg-logo="" group-title="Argentina",TyC Sports (alt 1)
-https://amg26268-amg26268c14-freelivesports-emea-10267.playouts.now.amagi.tv/ts-us-e2-n2/playlist/amg26268-sportsstudio-tycsports-freelivesportsemea/playlist.m3u8
-#EXTINF:-1 tvg-id="TyCSports.ar" tvg-logo="" group-title="Argentina",TyC Sports (alt 2)
-https://live-04-11-tyc-app-web.vodgc.net/tyc24/index.m3u8|User-Agent=Mozilla%2F5.0%20%28Windows%20NT%2011.0%3B%20Win64%3B%20x64%29%20AppleWebKit%2F537.36%20%28KHTML%2C%20like%20Gecko%29%20Chrome%2F134.0.6998.166%20Safari%2F537.36
-#EXTINF:-1 tvg-id="AiredeSantaFe.ar" tvg-logo="" group-title="Argentina",Aire de Santa Fe (alt 1)
-https://mdstrm.com/live-stream-playlist/6931a0eb06778645348008e0.m3u8
-#EXTINF:-1 tvg-id="AiredeSantaFe.ar" tvg-logo="" group-title="Argentina",Aire de Santa Fe (alt 2)
-https://unlimited1-us.dps.live/airedesantafetv/airedesantafetv.smil/playlist.m3u8
-#EXTINF:-1 tvg-id="Canal10MardelPlata.ar" tvg-logo="" group-title="Argentina",Canal 10 Mar del Plata
-https://g1.mc-hor.transport.edge-access.net/a12/ngrp:canal10mdq-100044_all/Playlist.m3u8?sense=true
-#EXTINF:-1 tvg-id="CarasTV.ar" tvg-logo="" group-title="Argentina",Caras TV (alt 1)
-https://unlimited1-us.dps.live/carastv/carastv.smil/playlist.m3u8
-#EXTINF:-1 tvg-id="CarasTV.ar" tvg-logo="" group-title="Argentina",Caras TV (alt 2)
-http://190.61.90.17:40000/play/a043/index.m3u8
-#EXTINF:-1 tvg-id="NETTV.ar" tvg-logo="" group-title="Argentina",NET TV (alt 1)
-http://45.134.141.161:2200/ARG/Net_TV/index.m3u8
-#EXTINF:-1 tvg-id="NETTV.ar" tvg-logo="" group-title="Argentina",NET TV (alt 2)
-https://unlimited1-us.dps.live/nettv/nettv.smil/playlist.m3u8
-#EXTINF:-1 tvg-id="TelefeTucuman.ar" tvg-logo="" group-title="Argentina",Telefe Tucumán
-https://g2.mc-hor.transport.edge-access.net/a05/ngrp:elochotv-100168_all/Playlist.m3u8?sense=true
-#EXTINF:-1 tvg-id="SenalU.ar" tvg-logo="" group-title="Argentina",Señal U
-https://live20.bozztv.com/giatv/giatv-canal30tda/canal30tda/chunks.m3u8
-#EXTINF:-1 tvg-id="SomosEntreRios.ar" tvg-logo="" group-title="Argentina",Somos Entre Ríos
-https://live20.bozztv.com/akamaissh101/ssh101/somosentrerios/playlist.m3u8
-#EXTINF:-1 tvg-id="Canal8SanJuan.ar" tvg-logo="" group-title="Argentina",Canal 8 San Juan
-https://live20.bozztv.com/akamaissh101/ssh101/canal8sanjuan/playlist.m3u8
-#EXTINF:-1 tvg-id="LaClave.cl" tvg-logo="" group-title="Música",La Clave
-https://unlimited1-cl-isp.dps.live/laclavetv/laclavetv.smil/playlist.m3u8
-#EXTINF:-1 tvg-id="RadioDuna.cl" tvg-logo="" group-title="Música",Radio Duna
-https://mdstrm.com/live-stream-playlist/67ed8a8d6db4af9a0188555c.m3u8
-#EXTINF:-1 tvg-id="RadioPudahuel.cl" tvg-logo="" group-title="Música",Radio Pudahuel
-https://unlimited2-cl-isp.dps.live/pudahueltv/pudahueltv.smil/playlist.m3u8
-#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Música",Retro Plus 1
-https://scl.edge.grupoz.cl/retroplustvuno/live/playlist.m3u8
-#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Música",Retro Plus 2
-https://scl.edge.grupoz.cl/retroplustvdos/live/playlist.m3u8
-#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Animación",Canal Retrox TV
+#EXTINF:-1 tvg-id="CiudadMagica.ar" tvg-logo="" group-title="Argentina",Ciudad Magica (alt 1)
+https://lbgo.bozztv.com/ssh101/ssh101/verycoolfgr/playlist.m3u8
+#EXTINF:-1 tvg-id="AlegriaTV.bo" tvg-logo="" group-title="Música",Alegria TV (alt 1)
+https://lbgo.bozztv.com/ssh101/ssh101/confirmatv/playlist.m3u8
+#EXTINF:-1 tvg-id="SalsaGordaTelevision.co" tvg-logo="" group-title="Música",Salsa Gorda Television (alt 1)
+https://live20.bozztv.com/akamaissh101/ssh101/qMUAZEy/playlist.m3u8
+#EXTINF:-1 tvg-id="Canal3KMKTV.cr" tvg-logo="" group-title="Música",Canal 3 KMK TV (alt 1)
+https://live20.bozztv.com/giatv/giatv-KMKTV/KMKTV/chunks.m3u8
+#EXTINF:-1 tvg-id="GexTV.cr" tvg-logo="" group-title="Música",Gex TV (alt 1)
+https://live20.bozztv.com/akamaissh101/ssh101/gextvaccess/playlist.m3u8
+#EXTINF:-1 tvg-id="RetroxTV.cr" tvg-logo="" group-title="Animación",Retrox TV (alt 1)
 https://lbgo.bozztv.com/ssh101/ssh101/retyroxtv/playlist.m3u8
+#EXTINF:-1 tvg-id="RetroxTV.cr" tvg-logo="" group-title="Animación",Retrox TV (alt 2)
+https://live20.bozztv.com/giatv/giatv-TVCHANNEL/TVCHANNEL/chunks.m3u8
+#EXTINF:-1 tvg-id="RetroxTV.cr" tvg-logo="" group-title="Animación",Retrox TV (alt 3)
+https://live20.bozztv.com/giatv/giatv-TVCHANNEL/TVCHANNEL/playlist.m3u8
+#EXTINF:-1 tvg-id="MontonesTV.do" tvg-logo="" group-title="Música",Montones TV (alt 1)
+https://lbgo.bozztv.com/ssh101/ssh101/montonestv1/playlist.m3u8
+#EXTINF:-1 tvg-id="PantallaClasicaEC.ec" tvg-logo="" group-title="Clásicos",Pantalla Clásica EC (alt 1)
+https://live21.bozztv.com/akamaissh101/ssh101/pantallaclasics/playlist.m3u8
+#EXTINF:-1 tvg-id="PrattelTV.pe" tvg-logo="" group-title="Música",Prattel TV (alt 1)
+https://183.bozztv.com/ssh101/ssh101/pratteltvperu/playlist.m3u8

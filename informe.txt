@@ -1,11 +1,10 @@
-Revision 2026-11-05 04:21 UTC: 24 en la lista, 0 ocultos, 24 total
+Revision 2026-11-05 04:24 UTC: 11 en la lista, 0 ocultos, 11 total
 
 Fallaron esta vez (siguen en la lista):
-  [?] Aire de Santa Fe (alt 2)  (HTTP 404, fallo 1/2)
-  [?] Retro Plus 1  (HTTP 404, fallo 1/2)
-  [?] Retro Plus 2  (HTTP 404, fallo 1/2)
-  [?] Canal Retrox TV  (HTTP 404, fallo 1/2)
-
-No se pudieron verificar (siguen en la lista):
-  [~] Canal 10 Mar del Plata  (HTTP 403, posible bloqueo por pais)
-  [~] Telefe Tucumán  (HTTP 403, posible bloqueo por pais)
+  [?] Alegria TV (alt 1)  (HTTP 404, fallo 1/2)
+  [?] Salsa Gorda Television (alt 1)  (HTTP 502, fallo 1/2)
+  [?] Retrox TV (alt 1)  (HTTP 404, fallo 1/2)
+  [?] Retrox TV (alt 2)  (HTTP 404, fallo 1/2)
+  [?] Retrox TV (alt 3)  (HTTP 404, fallo 1/2)
+  [?] Pantalla Clásica EC (alt 1)  (HTTP 503, fallo 1/2)
+  [?] Prattel TV (alt 1)  (HTTP 404, fallo 1/2)
