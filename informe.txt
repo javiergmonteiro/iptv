@@ -1,10 +1,5 @@
-Revision 2026-11-05 04:24 UTC: 11 en la lista, 0 ocultos, 11 total
+Revision 2026-11-05 04:31 UTC: 0 en la lista, 2 ocultos, 2 total
 
-Fallaron esta vez (siguen en la lista):
-  [?] Alegria TV (alt 1)  (HTTP 404, fallo 1/2)
-  [?] Salsa Gorda Television (alt 1)  (HTTP 502, fallo 1/2)
-  [?] Retrox TV (alt 1)  (HTTP 404, fallo 1/2)
-  [?] Retrox TV (alt 2)  (HTTP 404, fallo 1/2)
-  [?] Retrox TV (alt 3)  (HTTP 404, fallo 1/2)
-  [?] Pantalla Clásica EC (alt 1)  (HTTP 503, fallo 1/2)
-  [?] Prattel TV (alt 1)  (HTTP 404, fallo 1/2)
+Ocultos (caidos):
+  [X] Lofi Girl  (no esta transmitiendo en vivo, 1 fallos seguidos)
+  [X] Al Jazeera English  (no esta transmitiendo en vivo, 1 fallos seguidos)
