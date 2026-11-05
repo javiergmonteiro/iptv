@@ -139,18 +139,36 @@ def directo_youtube(url, id_anterior):
         if id_anterior:
             return None, f"YouTube no respondio ({type(e).__name__}), uso el ultimo ID", id_anterior
         return False, f"YouTube no respondio ({type(e).__name__})", None
-    m = re.search(r'<link rel="canonical" href="https://www\.youtube\.com/watch\?v=([\w-]{11})"', html)
-    if not m:
-        if "consent.youtube.com" in html or "Sign in to confirm" in html:
-            if id_anterior:
-                return None, "YouTube pidio verificacion, uso el ultimo ID", id_anterior
-            return False, "YouTube pidio verificacion", None
+    if "consent.youtube.com" in html or "Sign in to confirm" in html:
+        if id_anterior:
+            return None, "YouTube pidio verificacion, uso el ultimo ID", id_anterior
+        return False, "YouTube pidio verificacion", None
+    vid, titulo = buscar_vivo(html)
+    if not vid:
         return False, "no esta transmitiendo en vivo", None
-    if '"isLive":true' not in html and '"isLiveNow":true' not in html:
-        return False, "el directo termino o todavia no empezo", None
-    vid = m.group(1)
-    cambio = " (ID nuevo)" if id_anterior and vid != id_anterior else ""
-    return True, f"en vivo {vid}{cambio}", vid
+    cambio = ", ID nuevo" if id_anterior and vid != id_anterior else ""
+    return True, f"{titulo[:60]} [{vid}{cambio}]", vid
+
+
+def buscar_vivo(html):
+    """Busca el directo en la pagina. YouTube a veces devuelve la pagina del
+    video y a veces la del canal con el directo como miniatura."""
+    # 1) Pagina del video: los datos del reproductor dicen si esta en vivo.
+    m = re.search(r'"videoDetails":\{"videoId":"([\w-]{11})","title":"((?:[^"\\]|\\.)*)"', html)
+    if m and '"isLiveNow":true' in html:
+        return m.group(1), json.loads(f'"{m.group(2)}"')
+    # 2) Pagina del canal: la miniatura del directo tiene "isLive":true, y su
+    #    ID y titulo aparecen poco antes dentro del mismo bloque.
+    for vivo in re.finditer(r'"isLive":true', html):
+        tramo = html[max(0, vivo.start() - 6000):vivo.start()]
+        ids = re.findall(r'"videoId":"([\w-]{11})"', tramo)
+        if not ids:
+            continue
+        titulos = re.findall(r'"title":\{"runs":\[\{"text":"((?:[^"\\]|\\.)*)"', tramo)
+        titulos += re.findall(r'"title":\{"simpleText":"((?:[^"\\]|\\.)*)"', tramo)
+        titulo = json.loads(f'"{titulos[-1]}"') if titulos else "en vivo"
+        return ids[-1], titulo
+    return None, None
 
 
 def revisar(canal, estado):
