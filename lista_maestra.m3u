@@ -55,3 +55,5 @@ https://cloudvideo.servers10.com:8081/8020/index.m3u8
 https://cdnlive.klicgo.net/maxanime/live/playlist.m3u8
 #EXTINF:-1 tvg-id="MrBeanAnimated.uk" tvg-country="UK" tvg-logo="" group-title="Animación",Mr. Bean Anime Spain
 https://amg00627-amg00627c30-rakuten-es-3990.playouts.now.amagi.tv/playlist/amg00627-banijayfast-mrbeanescc-rakutenes/playlist.m3u8
+#EXTINF:-1 tvg-id="DisneyChannelLatinoAmerica" tvg-country="" tvg-logo="" group-title="Animation",Disney Channel
+https://iptv-org.github.io/channels/ar/DisneyChannelLatinAmerica
