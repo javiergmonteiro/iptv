@@ -11,10 +11,17 @@ Un canal sale de lista.m3u recien despues de FALLOS_PARA_OCULTAR fallos
 seguidos (evita sacar canales por un corte momentaneo) y vuelve solo
 apenas responde de nuevo.
 
+Canales de YouTube: si el grupo (group-title) contiene "YouTube", en la
+maestra va el link del canal (https://www.youtube.com/@canal) o de un
+directo (watch?v=...). En cada revision se busca el directo que esta al
+aire y en lista.m3u se escribe el link del addon de YouTube de Kodi con
+el ID actual, asi sigue andando aunque el canal reinicie la transmision.
+
 Uso:  python check_m3u.py [maestra] [salida]
 Solo usa la libreria estandar de Python.
 """
 import json
+import re
 import ssl
 import sys
 import urllib.request
@@ -98,6 +105,84 @@ def probar(url_kodi):
         return False, type(e).__name__
 
 
+YT_UA = ("Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 "
+         "(KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36")
+# Evita la pantalla de "aceptar cookies" que YouTube muestra en Europa.
+YT_COOKIE = "CONSENT=YES+1; SOCS=CAI"
+YT_PLUGIN = "plugin://plugin.video.youtube/play/?video_id="
+
+
+def es_youtube(extinf):
+    for l in extinf:
+        m = re.search(r'group-title="([^"]*)"', l)
+        if m and "youtube" in m.group(1).lower():
+            return True
+    return False
+
+
+def directo_youtube(url, id_anterior):
+    """Devuelve (ok, detalle, video_id) del directo que esta al aire."""
+    m = re.search(r"(?:v=|youtu\.be/|/live/)([\w-]{11})(?:[&?/]|$)", url)
+    if m and ("watch" in url or "youtu.be" in url or "/live/" in url):
+        pagina = f"https://www.youtube.com/watch?v={m.group(1)}"
+    else:
+        pagina = url.split("?")[0].rstrip("/")
+        if not pagina.endswith("/live"):
+            pagina += "/live"
+    try:
+        req = urllib.request.Request(pagina, headers={
+            "User-Agent": YT_UA, "Cookie": YT_COOKIE, "Accept-Language": "es"})
+        with urllib.request.urlopen(req, timeout=TIMEOUT) as r:
+            html = r.read(3_000_000).decode("utf-8", "ignore")
+    except Exception as e:
+        # No pudimos preguntar: seguimos con el ultimo ID conocido.
+        if id_anterior:
+            return None, f"YouTube no respondio ({type(e).__name__}), uso el ultimo ID", id_anterior
+        return False, f"YouTube no respondio ({type(e).__name__})", None
+    if "consent.youtube.com" in html or "Sign in to confirm" in html:
+        if id_anterior:
+            return None, "YouTube pidio verificacion, uso el ultimo ID", id_anterior
+        return False, "YouTube pidio verificacion", None
+    vid, titulo = buscar_vivo(html)
+    if not vid:
+        return False, "no esta transmitiendo en vivo", None
+    cambio = ", ID nuevo" if id_anterior and vid != id_anterior else ""
+    return True, f"{titulo[:60]} [{vid}{cambio}]", vid
+
+
+def buscar_vivo(html):
+    """Busca el directo en la pagina. YouTube a veces devuelve la pagina del
+    video y a veces la del canal con el directo como miniatura."""
+    # 1) Pagina del video: los datos del reproductor dicen si esta en vivo.
+    m = re.search(r'"videoDetails":\{"videoId":"([\w-]{11})","title":"((?:[^"\\]|\\.)*)"', html)
+    if m and '"isLiveNow":true' in html:
+        return m.group(1), json.loads(f'"{m.group(2)}"')
+    # 2) Pagina del canal: la miniatura del directo tiene "isLive":true, y su
+    #    ID y titulo aparecen poco antes dentro del mismo bloque.
+    for vivo in re.finditer(r'"isLive":true', html):
+        tramo = html[max(0, vivo.start() - 6000):vivo.start()]
+        ids = re.findall(r'"videoId":"([\w-]{11})"', tramo)
+        if not ids:
+            continue
+        titulos = re.findall(r'"title":\{"runs":\[\{"text":"((?:[^"\\]|\\.)*)"', tramo)
+        titulos += re.findall(r'"title":\{"simpleText":"((?:[^"\\]|\\.)*)"', tramo)
+        titulo = json.loads(f'"{titulos[-1]}"') if titulos else "en vivo"
+        return ids[-1], titulo
+    return None, None
+
+
+def revisar(canal, estado):
+    """Devuelve (ok, detalle, url_para_kodi, video_id)."""
+    extinf, url = canal
+    if es_youtube(extinf) and not url.startswith("plugin://"):
+        ok, detalle, vid = directo_youtube(url, estado.get(url, {}).get("video_id"))
+        return ok, detalle, (YT_PLUGIN + vid) if vid else url, vid
+    if url.startswith("plugin://"):
+        return None, "link de addon de Kodi, no se puede revisar", url, None
+    ok, detalle = probar(url)
+    return ok, detalle, url, None
+
+
 def main():
     cabecera, canales = parsear(maestra.read_text(encoding="utf-8-sig"))
     try:
@@ -106,21 +191,27 @@ def main():
         estado = {}
 
     with ThreadPoolExecutor(max_workers=10) as ex:
-        resultados = list(ex.map(lambda c: probar(c[1]), canales))
+        resultados = list(ex.map(lambda c: revisar(c, estado), canales))
 
-    vivos, ocultos, avisos, dudosos = [], [], [], []
+    vivos, ocultos, avisos, dudosos, youtube = [], [], [], [], []
     nuevo_estado = {}
-    for (extinf, url), (ok, detalle) in zip(canales, resultados):
+    for (extinf, url), (ok, detalle, url_kodi, vid) in zip(canales, resultados):
+        n = nombre(extinf, url)
         if ok is None:
-            dudosos.append(f"  [~] {nombre(extinf, url)}  ({detalle})")
+            dudosos.append(f"  [~] {n}  ({detalle})")
             ok = True
+        elif vid:
+            youtube.append(f"  [YT] {n}  ({detalle})")
         fallos = 0 if ok else estado.get(url, {}).get("fallos", 0) + 1
         nuevo_estado[url] = {"fallos": fallos, "ultimo": detalle}
-        n = nombre(extinf, url)
-        if fallos >= FALLOS_PARA_OCULTAR:
+        if vid:
+            nuevo_estado[url]["video_id"] = vid
+        elif url in estado and "video_id" in estado[url]:
+            nuevo_estado[url]["video_id"] = estado[url]["video_id"]
+        if fallos >= FALLOS_PARA_OCULTAR or (not ok and url_kodi == url and es_youtube(extinf)):
             ocultos.append(f"  [X] {n}  ({detalle}, {fallos} fallos seguidos)")
         else:
-            vivos.append("\n".join(extinf + [url]))
+            vivos.append("\n".join(extinf + [url_kodi]))
             if not ok:
                 avisos.append(f"  [?] {n}  ({detalle}, fallo {fallos}/{FALLOS_PARA_OCULTAR})")
 
@@ -129,6 +220,8 @@ def main():
 
     ahora = datetime.now(timezone.utc).strftime("%Y-%m-%d %H:%M UTC")
     informe = [f"Revision {ahora}: {len(vivos)} en la lista, {len(ocultos)} ocultos, {len(canales)} total"]
+    if youtube:
+        informe += ["", "Directos de YouTube:"] + youtube
     if avisos:
         informe += ["", "Fallaron esta vez (siguen en la lista):"] + avisos
     if dudosos:
