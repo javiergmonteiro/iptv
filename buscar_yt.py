@@ -29,10 +29,13 @@ def vivos(d):
         if x[0] not in seen: seen.add(x[0]);res.append(x)
     return res
 lines=[]
-for q in ["noticias argentina en vivo","TN en vivo","C5N en vivo","LN+ en vivo","canal 26 en vivo","cronica tv en vivo","A24 en vivo","telefe en vivo","tv publica en vivo","eltrece en vivo","IP noticias en vivo","canal 9 argentina en vivo"]:
-    u="https://www.youtube.com/results?search_query="+urllib.parse.quote(q)+"&sp=EgJAAQ%253D%253D"
-    lines.append("## "+q)
+for vid in ["cb12KmMMDJA","rZtTUCxpPuI","FEWZjXJ7M0c","iaooxPL8G_I","hw4uHyct4vg","XhAYcYpPzTc","zcWXboTnous","w78Zr0J-dIs","ArKbAx1K-2U"]:
     try:
-        for v in vivos(data(get(u)))[:6]: lines.append(" | ".join(v))
-    except Exception as e: lines.append("ERROR "+repr(e))
+        h=get("https://www.youtube.com/watch?v="+vid)
+        m=re.search(r'"videoOwnerRenderer".{0,3000}?"canonicalBaseUrl":"(/@[^"]+)"',h,re.S)
+        handle=m.group(1) if m else "NO"
+        lv=get("https://www.youtube.com"+handle+"/live") if m else ""
+        m2=re.search(r'"currentVideoEndpoint":\{.{0,600}?"videoId":"([\w-]{11})"',lv,re.S)
+        lines.append(f"{vid} -> {handle} -> /live da {m2.group(1) if m2 else 'NO'}")
+    except Exception as e: lines.append(f"{vid} ERROR {e!r}")
 open("busqueda_yt.txt","w").write("\n".join(lines)+"\n")
