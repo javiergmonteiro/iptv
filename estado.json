@@ -1,6 +1,6 @@
 {
  "https://live20.bozztv.com/akamaissh101/ssh101/retrotoons/chunks.m3u8": {
-  "fallos": 15,
+  "fallos": 16,
   "ultimo": "HTTP 404"
  },
  "https://unlimited1-saopaulo.dps.live/televidaar/televidaar.smil/televidaar/livestream1/chunks.m3u8": {
@@ -8,27 +8,27 @@
   "ultimo": "HTTP 403, posible bloqueo por pais"
  },
  "https://lbgo.bozztv.com/ssh101/ssh101/retyroxtv/chunks.m3u8": {
-  "fallos": 15,
+  "fallos": 16,
   "ultimo": "HTTP 404"
  },
  "https://g1.mc-slo.transport.edge-access.net/b08/ngrp:CM_CanaldelaMusica-100044_all/Playlist.m3u8?sense=true": {
   "fallos": 0,
   "ultimo": "HTTP 403, posible bloqueo por pais"
  },
- "https://live-05-13-la100.vodgc.net/live-05-13-la100/index.m3u8": {
-  "fallos": 15,
-  "ultimo": "URLError"
+ "https://mdstrm.com/live-stream-playlist/68b74fd1d6512526f1f7c75a.m3u8": {
+  "fallos": 0,
+  "ultimo": "HTTP 200"
  },
  "https://lbgo.bozztv.com/ssh101/ssh101/myevent2025/playlist.m3u8": {
   "fallos": 0,
   "ultimo": "HTTP 200"
  },
  "https://scl.edge.grupoz.cl/retroplustvuno/live/chunklist_w1463797368.m3u8": {
-  "fallos": 15,
+  "fallos": 16,
   "ultimo": "HTTP 404"
  },
  "https://scl.edge.grupoz.cl/retroplustvdos/live/chunklist_w349133620.m3u8": {
-  "fallos": 15,
+  "fallos": 16,
   "ultimo": "HTTP 404"
  },
  "https://live2.tensila.com/1-1-1.power-tv/hls/live/mystream.m3u8": {
@@ -76,7 +76,7 @@
   "ultimo": "HTTP 200"
  },
  "https://live20.bozztv.com/akamaissh101/ssh101/cartoonclasico/playlist.m3u8": {
-  "fallos": 15,
+  "fallos": 16,
   "ultimo": "HTTP 404"
  },
  "https://627bb251f23c7.streamlock.net:444/ExtremaKids/ExtremaKids/playlist.m3u8": {
@@ -112,6 +112,62 @@
   "ultimo": "HTTP 200"
  },
  "https://iptv-org.github.io/channels/ar/DisneyChannelLatinAmerica": {
+  "fallos": 0,
+  "ultimo": "HTTP 200"
+ },
+ "http://138.59.227.20:8000/play/a05u/index.m3u8": {
+  "fallos": 0,
+  "ultimo": "HTTP 200"
+ },
+ "https://livetrx01.vodgc.net/eltrecetv/index.m3u8|Referer=https://vodgc.net": {
+  "fallos": 0,
+  "ultimo": "HTTP 200"
+ },
+ "https://amg26268-amg26268c14-freelivesports-emea-10267.playouts.now.amagi.tv/ts-us-e2-n2/playlist/amg26268-sportsstudio-tycsports-freelivesportsemea/playlist.m3u8": {
+  "fallos": 0,
+  "ultimo": "HTTP 200"
+ },
+ "https://mdstrm.com/live-stream-playlist/6931a0eb06778645348008e0.m3u8": {
+  "fallos": 0,
+  "ultimo": "HTTP 200"
+ },
+ "https://g1.mc-hor.transport.edge-access.net/a12/ngrp:canal10mdq-100044_all/Playlist.m3u8?sense=true": {
+  "fallos": 0,
+  "ultimo": "HTTP 403, posible bloqueo por pais"
+ },
+ "https://unlimited1-us.dps.live/carastv/carastv.smil/playlist.m3u8": {
+  "fallos": 0,
+  "ultimo": "HTTP 200"
+ },
+ "http://45.134.141.161:2200/ARG/Net_TV/index.m3u8": {
+  "fallos": 0,
+  "ultimo": "HTTP 200"
+ },
+ "https://g2.mc-hor.transport.edge-access.net/a05/ngrp:elochotv-100168_all/Playlist.m3u8?sense=true": {
+  "fallos": 0,
+  "ultimo": "HTTP 403, posible bloqueo por pais"
+ },
+ "https://live20.bozztv.com/giatv/giatv-canal30tda/canal30tda/chunks.m3u8": {
+  "fallos": 0,
+  "ultimo": "HTTP 200"
+ },
+ "https://live20.bozztv.com/akamaissh101/ssh101/somosentrerios/playlist.m3u8": {
+  "fallos": 0,
+  "ultimo": "HTTP 200"
+ },
+ "https://live20.bozztv.com/akamaissh101/ssh101/canal8sanjuan/playlist.m3u8": {
+  "fallos": 0,
+  "ultimo": "HTTP 200"
+ },
+ "https://unlimited1-cl-isp.dps.live/laclavetv/laclavetv.smil/playlist.m3u8": {
+  "fallos": 0,
+  "ultimo": "HTTP 200"
+ },
+ "https://mdstrm.com/live-stream-playlist/67ed8a8d6db4af9a0188555c.m3u8": {
+  "fallos": 0,
+  "ultimo": "HTTP 200"
+ },
+ "https://unlimited2-cl-isp.dps.live/pudahueltv/pudahueltv.smil/playlist.m3u8": {
   "fallos": 0,
   "ultimo": "HTTP 200"
  }

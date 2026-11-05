@@ -3,6 +3,8 @@
 https://unlimited1-saopaulo.dps.live/televidaar/televidaar.smil/televidaar/livestream1/chunks.m3u8
 #EXTINF:-1 tvg-id="CANAL DE LA MUSICA.ar" tvg-name="Canal de la Música" group-title="Música" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/d/d0/Logocmtvargentina.png",Canal de la Música
 https://g1.mc-slo.transport.edge-access.net/b08/ngrp:CM_CanaldelaMusica-100044_all/Playlist.m3u8?sense=true
+#EXTINF:-1 tvg-id=" tvg-logo="https://files.catbox.moe/kytmm2.png" group-title="Música",Radio La 100
+https://mdstrm.com/live-stream-playlist/68b74fd1d6512526f1f7c75a.m3u8
 #EXTINF:0 tvg-id=" tvg-logo="" group-title="Animación",Locomotion
 https://lbgo.bozztv.com/ssh101/ssh101/myevent2025/playlist.m3u8
 #EXTINF:0 tvg-id=" tvg-logo="" group-title="Música",Retro Plus 3
@@ -45,8 +47,6 @@ https://cdnlive.klicgo.net/maxanime/live/playlist.m3u8
 https://amg00627-amg00627c30-rakuten-es-3990.playouts.now.amagi.tv/playlist/amg00627-banijayfast-mrbeanescc-rakutenes/playlist.m3u8
 #EXTINF:-1 tvg-id="DisneyChannelLatinoAmerica" tvg-country="" tvg-logo="" group-title="Animation",Disney Channel
 https://iptv-org.github.io/channels/ar/DisneyChannelLatinAmerica
-#EXTINF:-1 tvg-id="La100.ar" tvg-logo="https://files.catbox.moe/kytmm2.png" group-title="Música",Radio La 100
-https://mdstrm.com/live-stream-playlist/68b74fd1d6512526f1f7c75a.m3u8
 #EXTINF:-1 tvg-id="A24.ar" tvg-logo="" group-title="Argentina",A24
 http://138.59.227.20:8000/play/a05u/index.m3u8
 #EXTINF:-1 tvg-id="ElTrece.ar" tvg-logo="" group-title="Argentina",El Trece
