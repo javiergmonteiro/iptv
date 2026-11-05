@@ -83,3 +83,7 @@ https://live20.bozztv.com/giatv/giatv-KMKTV/KMKTV/chunks.m3u8
 https://live20.bozztv.com/akamaissh101/ssh101/gextvaccess/playlist.m3u8
 #EXTINF:-1 tvg-id="MontonesTV.do" tvg-logo="" group-title="Música",Montones TV
 https://lbgo.bozztv.com/ssh101/ssh101/montonestv1/playlist.m3u8
+#EXTINF:-1 tvg-logo="" group-title="YouTube Anime",Yu-Gi-Oh! Duel Monsters
+plugin://plugin.video.youtube/play/?video_id=434nAi7ibV4
+#EXTINF:-1 tvg-logo="" group-title="YouTube Anime",Yu-Gi-Oh! GX
+plugin://plugin.video.youtube/play/?video_id=zpfvKzuCB-k

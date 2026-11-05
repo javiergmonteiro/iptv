@@ -124,8 +124,10 @@ def directo_youtube(url, id_anterior):
     """Devuelve (ok, detalle, video_id) del directo que esta al aire."""
     m = re.search(r"(?:v=|youtu\.be/|/live/)([\w-]{11})(?:[&?/]|$)", url)
     if m and ("watch" in url or "youtu.be" in url or "/live/" in url):
-        pagina = f"https://www.youtube.com/watch?v={m.group(1)}"
+        esperado = m.group(1)
+        pagina = f"https://www.youtube.com/watch?v={esperado}"
     else:
+        esperado = None
         pagina = url.split("?")[0].rstrip("/")
         if not pagina.endswith("/live"):
             pagina += "/live"
@@ -139,36 +141,30 @@ def directo_youtube(url, id_anterior):
         if id_anterior:
             return None, f"YouTube no respondio ({type(e).__name__}), uso el ultimo ID", id_anterior
         return False, f"YouTube no respondio ({type(e).__name__})", None
-    if "consent.youtube.com" in html or "Sign in to confirm" in html:
+    vid, titulo, en_vivo = leer_pagina(html)
+    if not vid and "consent.youtube.com" in html:
+        # Nos mostro la pantalla de cookies en lugar del video.
         if id_anterior:
             return None, "YouTube pidio verificacion, uso el ultimo ID", id_anterior
         return False, "YouTube pidio verificacion", None
-    vid, titulo = buscar_vivo(html)
-    if not vid:
+    if esperado and vid and vid != esperado:
+        vid = None  # la pagina mostro otro video: el pedido no existe mas
+    if not vid or not en_vivo:
         return False, "no esta transmitiendo en vivo", None
     cambio = ", ID nuevo" if id_anterior and vid != id_anterior else ""
     return True, f"{titulo[:60]} [{vid}{cambio}]", vid
 
 
-def buscar_vivo(html):
-    """Busca el directo en la pagina. YouTube a veces devuelve la pagina del
-    video y a veces la del canal con el directo como miniatura."""
-    # 1) Pagina del video: los datos del reproductor dicen si esta en vivo.
-    m = re.search(r'"videoDetails":\{"videoId":"([\w-]{11})","title":"((?:[^"\\]|\\.)*)"', html)
-    if m and '"isLiveNow":true' in html:
-        return m.group(1), json.loads(f'"{m.group(2)}"')
-    # 2) Pagina del canal: la miniatura del directo tiene "isLive":true, y su
-    #    ID y titulo aparecen poco antes dentro del mismo bloque.
-    for vivo in re.finditer(r'"isLive":true', html):
-        tramo = html[max(0, vivo.start() - 6000):vivo.start()]
-        ids = re.findall(r'"videoId":"([\w-]{11})"', tramo)
-        if not ids:
-            continue
-        titulos = re.findall(r'"title":\{"runs":\[\{"text":"((?:[^"\\]|\\.)*)"', tramo)
-        titulos += re.findall(r'"title":\{"simpleText":"((?:[^"\\]|\\.)*)"', tramo)
-        titulo = json.loads(f'"{titulos[-1]}"') if titulos else "en vivo"
-        return ids[-1], titulo
-    return None, None
+def leer_pagina(html):
+    """Devuelve (video_id, titulo, en_vivo) del video principal de la pagina.
+    Tanto /watch?v= como @canal/live devuelven la pagina del video, aunque
+    YouTube le pida a GitHub que inicie sesion (eso no afecta a Kodi)."""
+    m = re.search(r'"currentVideoEndpoint":\{.{0,600}?"videoId":"([\w-]{11})"', html, re.S)
+    vid = m.group(1) if m else None
+    m = re.search(r'"playerOverlayVideoDetailsRenderer":\{"title":\{"simpleText":"((?:[^"\\]|\\.)*)"', html)
+    titulo = json.loads(f'"{m.group(1)}"') if m else "en vivo"
+    en_vivo = '"liveIndicatorText"' in html or '"isLiveNow":true' in html
+    return vid, titulo, en_vivo
 
 
 def revisar(canal, estado):
