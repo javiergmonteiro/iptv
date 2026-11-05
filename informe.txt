@@ -1,5 +1,6 @@
-Revision 2026-11-05 04:32 UTC: 0 en la lista, 2 ocultos, 2 total
+Revision 2026-11-05 04:33 UTC: 3 en la lista, 0 ocultos, 3 total
 
-Ocultos (caidos):
-  [X] Lofi Girl  (no esta transmitiendo en vivo, 1 fallos seguidos)
-  [X] Al Jazeera English  (no esta transmitiendo en vivo, 1 fallos seguidos)
+Directos de YouTube:
+  [YT] Lofi Girl  (christmas lofi radio 🎄 cozy ambience to relax to [8gJ716dhStg])
+  [YT] Al Jazeera English  (🔴 Al Jazeera English | Live [4RoipzXRhLE])
+  [YT] Chillhop Radio  (Essentials Radio - chill beats to enjoy Fall to 🍁 [s49CT4DTAkw])

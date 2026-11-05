@@ -1,2 +1,7 @@
 #EXTM3U
-
+#EXTINF:-1 tvg-logo="" group-title="YouTube",Lofi Girl
+plugin://plugin.video.youtube/play/?video_id=8gJ716dhStg
+#EXTINF:-1 tvg-logo="" group-title="YouTube",Al Jazeera English
+plugin://plugin.video.youtube/play/?video_id=4RoipzXRhLE
+#EXTINF:-1 tvg-logo="" group-title="YouTube Música",Chillhop Radio
+plugin://plugin.video.youtube/play/?video_id=s49CT4DTAkw
