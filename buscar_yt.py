@@ -24,18 +24,27 @@ def vivos(d):
             s=json.dumps(r,ensure_ascii=False)
             if '"style": "LIVE"' in s or "viéndolo" in s or '"BADGE_STYLE_TYPE_LIVE_NOW"' in s:
                 out.append((r["videoId"],txt(r.get("title")),txt(r.get("ownerText") or r.get("longBylineText")),txt(r.get("viewCountText"))))
+        r=o.get("lockupViewModel")
+        if r and r.get("contentType","").endswith("VIDEO"):
+            s=json.dumps(r,ensure_ascii=False)
+            if '"LIVE"' in s or "EN VIVO" in s or "viéndolo" in s or "espectadores" in s:
+                md=r.get("metadata",{}).get("lockupMetadataViewModel",{})
+                tit=md.get("title",{}).get("content","")
+                filas=[p.get("text",{}).get("content","") for row in md.get("metadata",{}).get("contentMetadataViewModel",{}).get("metadataRows",[]) for p in row.get("metadataParts",[])]
+                out.append((r.get("contentId"),tit," · ".join(filas),""))
     seen=set();res=[]
     for x in out:
         if x[0] not in seen: seen.add(x[0]);res.append(x)
     return res
 lines=[]
-for vid in ["cb12KmMMDJA","rZtTUCxpPuI","FEWZjXJ7M0c","iaooxPL8G_I","hw4uHyct4vg","XhAYcYpPzTc","zcWXboTnous","w78Zr0J-dIs","ArKbAx1K-2U"]:
+lines.append("## CONtv /streams")
+try:
+    for v in vivos(data(get("https://www.youtube.com/@CONtv/streams"))): lines.append(" | ".join(map(str,v)))
+except Exception as e: lines.append("ERROR "+repr(e))
+for q in ["CONtv en vivo","pokemon en vivo español","pokemon serie 24/7","digimon en vivo","digimon latino 24/7","anime clasico en vivo latino","anime 24/7 español latino","anime en vivo sub español","anime retro 24/7","dragon ball latino en vivo","sailor moon en vivo","caballeros del zodiaco en vivo","naruto en vivo latino","dibujos animados clasicos en vivo","yu-gi-oh en vivo"]:
+    u="https://www.youtube.com/results?search_query="+urllib.parse.quote(q)+"&sp=EgJAAQ%253D%253D"
+    lines.append("## "+q)
     try:
-        h=get("https://www.youtube.com/watch?v="+vid)
-        m=re.search(r'"videoOwnerRenderer".{0,3000}?"canonicalBaseUrl":"(/@[^"]+)"',h,re.S)
-        handle=m.group(1) if m else "NO"
-        lv=get("https://www.youtube.com"+handle+"/live") if m else ""
-        m2=re.search(r'"currentVideoEndpoint":\{.{0,600}?"videoId":"([\w-]{11})"',lv,re.S)
-        lines.append(f"{vid} -> {handle} -> /live da {m2.group(1) if m2 else 'NO'}")
-    except Exception as e: lines.append(f"{vid} ERROR {e!r}")
+        for v in vivos(data(get(u)))[:10]: lines.append(" | ".join(map(str,v)))
+    except Exception as e: lines.append("ERROR "+repr(e))
 open("busqueda_yt.txt","w").write("\n".join(lines)+"\n")
