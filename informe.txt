@@ -1,4 +1,4 @@
-Revision 2026-11-05 04:42 UTC: 52 en la lista, 5 ocultos, 57 total
+Revision 2026-11-05 04:47 UTC: 54 en la lista, 5 ocultos, 59 total
 
 Directos de YouTube:
   [YT] Yu-Gi-Oh! Duel Monsters  (Yu-Gi-Oh! Duel Monsters en Español [434nAi7ibV4])
@@ -11,6 +11,8 @@ Directos de YouTube:
   [YT] Canal 26  (🔴 CANAL 26 EN VIVO EN 4K - Noticias internacionales [iaooxPL8G_I])
   [YT] América TV Internacional  (🔴 AMÉRICA TV INTERNACIONAL EN VIVO 📺 [zcWXboTnous])
   [YT] Canal Rural  (CANAL RURAL EN VIVO [w78Zr0J-dIs])
+  [YT] Tom y Jerry Clásicos  (🔴 LIVE: Tom and Jerry Golden Era Live Stream! | 1940's-1970' [400k2SKoeh4])
+  [YT] Popeye  (🔴 LIVE! NONSTOP Popeye the Sailor Man ⚓ | Classic Cartoon Ma [H3uNIvTive4])
 
 No se pudieron verificar (siguen en la lista):
   [~] Canal 9 Mendoza  (HTTP 403, posible bloqueo por pais)
@@ -19,8 +21,8 @@ No se pudieron verificar (siguen en la lista):
   [~] Telefe Tucumán  (HTTP 403, posible bloqueo por pais)
 
 Ocultos (caidos):
-  [X] Retro Toons  (HTTP 404, 19 fallos seguidos)
-  [X] Canal Retrox TV  (HTTP 404, 19 fallos seguidos)
-  [X] Retro Plus 1  (HTTP 404, 19 fallos seguidos)
-  [X] Retro Plus 2  (HTTP 404, 19 fallos seguidos)
-  [X] Cartoon Network Clasico LAT  (HTTP 404, 19 fallos seguidos)
+  [X] Retro Toons  (HTTP 404, 20 fallos seguidos)
+  [X] Canal Retrox TV  (HTTP 404, 20 fallos seguidos)
+  [X] Retro Plus 1  (HTTP 404, 20 fallos seguidos)
+  [X] Retro Plus 2  (HTTP 404, 20 fallos seguidos)
+  [X] Cartoon Network Clasico LAT  (HTTP 404, 20 fallos seguidos)
