@@ -92,9 +92,9 @@ plugin://plugin.video.youtube/play/?video_id=cb12KmMMDJA
 #EXTINF:-1 tvg-logo="" group-title="YouTube Noticias",C5N
 plugin://plugin.video.youtube/play/?video_id=rZtTUCxpPuI
 #EXTINF:-1 tvg-logo="" group-title="YouTube Noticias",LN+
-plugin://plugin.video.youtube/play/?video_id=x-mUDGetx-M
+plugin://plugin.video.youtube/play/?video_id=FEWZjXJ7M0c
 #EXTINF:-1 tvg-logo="" group-title="YouTube Noticias",Crónica TV
-plugin://plugin.video.youtube/play/?video_id=hw4uHyct4vg
+plugin://plugin.video.youtube/play/?video_id=eyfRRwvguNo
 #EXTINF:-1 tvg-logo="" group-title="YouTube Noticias",Telefe Noticias
 plugin://plugin.video.youtube/play/?video_id=XhAYcYpPzTc
 #EXTINF:-1 tvg-logo="" group-title="YouTube Noticias",Canal 26
