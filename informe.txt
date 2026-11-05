@@ -1,13 +1,21 @@
-Revision 2026-11-04 22:59 UTC: 15 en la lista, 6 ocultos, 21 total
+Revision 2026-11-05 04:04 UTC: 26 en la lista, 0 ocultos, 26 total
 
-No se pudieron verificar (siguen en la lista):
-  [~] Canal 9 Mendoza  (HTTP 403, posible bloqueo por pais)
-  [~] Canal de la Música  (HTTP 403, posible bloqueo por pais)
-
-Ocultos (caidos):
-  [X] Retro Toons  (HTTP 404, 11 fallos seguidos)
-  [X] Canal Retrox TV  (HTTP 404, 11 fallos seguidos)
-  [X] Radio La 100  (URLError, 11 fallos seguidos)
-  [X] Retro Plus 1  (HTTP 404, 11 fallos seguidos)
-  [X] Retro Plus 2  (HTTP 404, 11 fallos seguidos)
-  [X] Cartoon Network Clasico LAT  (HTTP 404, 11 fallos seguidos)
+Fallaron esta vez (siguen en la lista):
+  [?] Comedy Central South Park  (HTTP 414, fallo 1/2)
+  [?] Las Tortugas Ninja  (HTTP 414, fallo 1/2)
+  [?] South Park  (HTTP 414, fallo 1/2)
+  [?] South Park Versión Original  (HTTP 414, fallo 1/2)
+  [?] South Park: Colección Cartman  (HTTP 414, fallo 1/2)
+  [?] South Park: Colección Kenny  (HTTP 414, fallo 1/2)
+  [?] South Park: Colección Kyle  (HTTP 414, fallo 1/2)
+  [?] South Park: Colección Stan  (HTTP 414, fallo 1/2)
+  [?] Anime Vision  (HTTP 504, fallo 1/2)
+  [?] Anime Vision Classics  (HTTP 504, fallo 1/2)
+  [?] Detective Conan  (HTTP 414, fallo 1/2)
+  [?] EnerGeek  (URLError, fallo 1/2)
+  [?] Naruto  (HTTP 414, fallo 1/2)
+  [?] Naruto Shippuden  (HTTP 414, fallo 1/2)
+  [?] Naruto Shippuden  (HTTP 414, fallo 1/2)
+  [?] One Piece  (HTTP 414, fallo 1/2)
+  [?] One Piece  (HTTP 414, fallo 1/2)
+  [?] Pluto TV Anime  (HTTP 414, fallo 1/2)
