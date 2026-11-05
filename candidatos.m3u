@@ -1,3 +1,9 @@
 #EXTM3U
-#EXTINF:-1 tvg-logo="" group-title="YouTube",Prueba
+#EXTINF:-1 tvg-logo="" group-title="YouTube Anime",Yu-Gi-Oh! Duel Monsters
 https://www.youtube.com/live/434nAi7ibV4
+#EXTINF:-1 tvg-logo="" group-title="YouTube Anime",Yu-Gi-Oh! GX
+https://www.youtube.com/live/zpfvKzuCB-k
+#EXTINF:-1 tvg-logo="" group-title="YouTube",Lofi Girl
+https://www.youtube.com/@LofiGirl
+#EXTINF:-1 tvg-logo="" group-title="YouTube",Al Jazeera English
+https://www.youtube.com/@aljazeeraenglish
