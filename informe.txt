@@ -1,13 +1,16 @@
-Revision 2026-11-05 03:56 UTC: 14 en la lista, 6 ocultos, 20 total
+Revision 2026-11-05 04:05 UTC: 22 en la lista, 6 ocultos, 28 total
+
+Fallaron esta vez (siguen en la lista):
+  [?] Canal Dragon Ball  (HTTP 503, fallo 1/2)
 
 No se pudieron verificar (siguen en la lista):
   [~] Canal 9 Mendoza  (HTTP 403, posible bloqueo por pais)
   [~] Canal de la Música  (HTTP 403, posible bloqueo por pais)
 
 Ocultos (caidos):
-  [X] Retro Toons  (HTTP 404, 12 fallos seguidos)
-  [X] Canal Retrox TV  (HTTP 404, 12 fallos seguidos)
-  [X] Radio La 100  (URLError, 12 fallos seguidos)
-  [X] Retro Plus 1  (HTTP 404, 12 fallos seguidos)
-  [X] Retro Plus 2  (HTTP 404, 12 fallos seguidos)
-  [X] Cartoon Network Clasico LAT  (HTTP 404, 12 fallos seguidos)
+  [X] Retro Toons  (HTTP 404, 13 fallos seguidos)
+  [X] Canal Retrox TV  (HTTP 404, 13 fallos seguidos)
+  [X] Radio La 100  (URLError, 13 fallos seguidos)
+  [X] Retro Plus 1  (HTTP 404, 13 fallos seguidos)
+  [X] Retro Plus 2  (HTTP 404, 13 fallos seguidos)
+  [X] Cartoon Network Clasico LAT  (HTTP 404, 13 fallos seguidos)
