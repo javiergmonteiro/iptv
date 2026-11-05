@@ -2,7 +2,7 @@ name: Probar candidatos
 on:
   push:
     branches: [candidatos]
-    paths: ["candidatos.m3u"]
+    paths: ["candidatos.m3u", "buscar_yt.py"]
 jobs:
   probar:
     runs-on: ubuntu-latest
@@ -16,9 +16,10 @@ jobs:
       - run: |
           rm -f estado.json
           python check_m3u.py candidatos.m3u candidatos_ok.m3u
+          python buscar_yt.py || true
       - run: |
           git config user.name "revisor-m3u"
           git config user.email "revisor-m3u@users.noreply.github.com"
-          git add candidatos_ok.m3u informe.txt estado.json
+          git add candidatos_ok.m3u informe.txt estado.json busqueda_yt.txt
           git commit -m "Resultado prueba candidatos"
           git push
