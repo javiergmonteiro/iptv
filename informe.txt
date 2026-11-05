@@ -1,13 +1,13 @@
-Revision 2026-11-04 22:59 UTC: 15 en la lista, 6 ocultos, 21 total
+Revision 2026-11-05 03:56 UTC: 14 en la lista, 6 ocultos, 20 total
 
 No se pudieron verificar (siguen en la lista):
   [~] Canal 9 Mendoza  (HTTP 403, posible bloqueo por pais)
   [~] Canal de la Música  (HTTP 403, posible bloqueo por pais)
 
 Ocultos (caidos):
-  [X] Retro Toons  (HTTP 404, 11 fallos seguidos)
-  [X] Canal Retrox TV  (HTTP 404, 11 fallos seguidos)
-  [X] Radio La 100  (URLError, 11 fallos seguidos)
-  [X] Retro Plus 1  (HTTP 404, 11 fallos seguidos)
-  [X] Retro Plus 2  (HTTP 404, 11 fallos seguidos)
-  [X] Cartoon Network Clasico LAT  (HTTP 404, 11 fallos seguidos)
+  [X] Retro Toons  (HTTP 404, 12 fallos seguidos)
+  [X] Canal Retrox TV  (HTTP 404, 12 fallos seguidos)
+  [X] Radio La 100  (URLError, 12 fallos seguidos)
+  [X] Retro Plus 1  (HTTP 404, 12 fallos seguidos)
+  [X] Retro Plus 2  (HTTP 404, 12 fallos seguidos)
+  [X] Cartoon Network Clasico LAT  (HTTP 404, 12 fallos seguidos)
