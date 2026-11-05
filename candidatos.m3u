@@ -1,0 +1,53 @@
+#EXTM3U
+#EXTINF:-1 tvg-id="ComedyCentralSouthPark.us" tvg-country="US" tvg-logo="" group-title="Animación",Comedy Central South Park
+https://jmp2.uk/plu-609ae5cd48d3200007b0a98e.m3u8
+#EXTINF:-1 tvg-id="ExtremaKidsTV.cr" tvg-country="CR" tvg-logo="" group-title="Animación",Extrema Kids TV
+https://627bb251f23c7.streamlock.net:444/ExtremaKids/ExtremaKids/playlist.m3u8
+#EXTINF:-1 tvg-id="GikTVMX.mx" tvg-country="MX" tvg-logo="" group-title="Animación",GikTVMX
+https://pistream.ddns.net/hls/stream.m3u8
+#EXTINF:-1 tvg-id="LAMIL35TV.ar" tvg-country="AR" tvg-logo="" group-title="Animación",LAMIL35 TV
+https://vtm2.msinteractiva.com/lamil35/lamil35/playlist.m3u8
+#EXTINF:-1 tvg-id="LasTortugasNinja.us" tvg-country="US" tvg-logo="" group-title="Animación",Las Tortugas Ninja
+https://jmp2.uk/plu-63dd5d7a4e83e700088fbca8.m3u8
+#EXTINF:-1 tvg-id="SouthPark.de" tvg-country="DE" tvg-logo="" group-title="Animación",South Park
+https://jmp2.uk/plu-628751bb7154a40007168843.m3u8
+#EXTINF:-1 tvg-id="SouthParkVersionOriginal.de" tvg-country="DE" tvg-logo="" group-title="Animación",South Park Versión Original
+https://jmp2.uk/plu-63d7a8e5a9957100086bfc23.m3u8
+#EXTINF:-1 tvg-id="SouthParkColeccionCartman.us" tvg-country="US" tvg-logo="" group-title="Animación",South Park: Colección Cartman
+https://jmp2.uk/plu-65df731cec9fda0008b7aa8d.m3u8
+#EXTINF:-1 tvg-id="SouthParkColeccionKenny.us" tvg-country="US" tvg-logo="" group-title="Animación",South Park: Colección Kenny
+https://jmp2.uk/plu-65df7272ec9fda0008b7a970.m3u8
+#EXTINF:-1 tvg-id="SouthParkColeccionKyle.us" tvg-country="US" tvg-logo="" group-title="Animación",South Park: Colección Kyle
+https://jmp2.uk/plu-65df73520d4561000817c29b.m3u8
+#EXTINF:-1 tvg-id="SouthParkColeccionStan.us" tvg-country="US" tvg-logo="" group-title="Animación",South Park: Colección Stan
+https://jmp2.uk/plu-65df72db18036500081a8292.m3u8
+#EXTINF:-1 tvg-id="TigueritoTV.do" tvg-country="DO" tvg-logo="" group-title="Animación",Tiguerito TV
+https://ss2.tvrdomi.com:1936/tigueritostv/tigueritostv/playlist.m3u8
+#EXTINF:-1 tvg-id="XtremaCartoons.ar" tvg-country="AR" tvg-logo="" group-title="Animación",Xtrema Cartoons
+https://stmv6.voxtvhd.com.br/xtremacartoons/xtremacartoons/playlist.m3u8
+#EXTINF:-1 tvg-id="AnimeVision.es" tvg-country="ES" tvg-logo="" group-title="Anime",Anime Vision
+https://d1ujfw1zyymzyd.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-a6fukwkbxmex8/live/fast-channel-animevision-64527ec0/fast-channel-animevision-64527ec0.m3u8
+#EXTINF:-1 tvg-id="AnimeVisionClassics.es" tvg-country="ES" tvg-logo="" group-title="Anime",Anime Vision Classics
+https://d82pyvmcw2kdc.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-swfivzrzwamaq/live/fast-channel-animevisionclassics-efc8dc6d/fast-channel-animevisionclassics-efc8dc6d.m3u8
+#EXTINF:-1 tvg-id="DetectiveConan.us" tvg-country="US" tvg-logo="" group-title="Anime",Detective Conan
+https://jmp2.uk/plu-629a066860ef810008267b70.m3u8
+#EXTINF:-1 tvg-id="DreikoTV.pa" tvg-country="PA" tvg-logo="" group-title="Anime",Dreiko TV
+https://cloudvideo.servers10.com:8081/8020/index.m3u8
+#EXTINF:-1 tvg-id="EnerGeek.cl" tvg-country="CL" tvg-logo="" group-title="Anime",EnerGeek
+https://backend.energeek.cl/webtv/egretroweb/index.m3u8?token=ZZDemoIPTVGH
+#EXTINF:-1 tvg-id="MAXAnime.ve" tvg-country="VE" tvg-logo="" group-title="Anime",MAX Anime
+https://cdnlive.klicgo.net/maxanime/live/playlist.m3u8
+#EXTINF:-1 tvg-id="MrBeanAnimated.uk" tvg-country="UK" tvg-logo="" group-title="Animación",Mr. Bean Anime Spain
+https://amg00627-amg00627c30-rakuten-es-3990.playouts.now.amagi.tv/playlist/amg00627-banijayfast-mrbeanescc-rakutenes/playlist.m3u8
+#EXTINF:-1 tvg-id="Narutoenespanol.us" tvg-country="US" tvg-logo="" group-title="Anime",Naruto
+https://jmp2.uk/plu-5ee92e72fb286e0007285fec.m3u8
+#EXTINF:-1 tvg-id="NarutoShippuden.us" tvg-country="US" tvg-logo="" group-title="Anime",Naruto Shippuden
+https://jmp2.uk/plu-64c92fea3c3344000869e8a9.m3u8
+#EXTINF:-1 tvg-id="NarutoShippuden.us" tvg-country="US" tvg-logo="" group-title="Anime",Naruto Shippuden
+https://jmp2.uk/plu-64c92f965580090008084968.m3u8
+#EXTINF:-1 tvg-id="OnePiece.us" tvg-country="US" tvg-logo="" group-title="Anime",One Piece
+https://jmp2.uk/plu-5ff4b9ccf938f8000779eb99.m3u8
+#EXTINF:-1 tvg-id="OnePiece.us" tvg-country="US" tvg-logo="" group-title="Anime",One Piece
+https://jmp2.uk/plu-680ba8992472a7200a183eb5.m3u8
+#EXTINF:-1 tvg-id="PlutoTVAnime.us" tvg-country="US" tvg-logo="" group-title="Anime",Pluto TV Anime
+https://jmp2.uk/plu-5dcde17bf6591d0009839e02.m3u8
