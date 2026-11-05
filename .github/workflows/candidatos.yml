@@ -19,6 +19,6 @@ jobs:
       - run: |
           git config user.name "revisor-m3u"
           git config user.email "revisor-m3u@users.noreply.github.com"
-          git add candidatos_ok.m3u informe.txt
+          git add candidatos_ok.m3u informe.txt estado.json
           git commit -m "Resultado prueba candidatos"
           git push

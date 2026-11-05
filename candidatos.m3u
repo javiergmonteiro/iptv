@@ -1,23 +1,5 @@
 #EXTM3U
-#EXTINF:-1 tvg-id="CiudadMagica.ar" tvg-logo="" group-title="Argentina",Ciudad Magica (alt 1)
-https://lbgo.bozztv.com/ssh101/ssh101/verycoolfgr/playlist.m3u8
-#EXTINF:-1 tvg-id="AlegriaTV.bo" tvg-logo="" group-title="Música",Alegria TV (alt 1)
-https://lbgo.bozztv.com/ssh101/ssh101/confirmatv/playlist.m3u8
-#EXTINF:-1 tvg-id="SalsaGordaTelevision.co" tvg-logo="" group-title="Música",Salsa Gorda Television (alt 1)
-https://live20.bozztv.com/akamaissh101/ssh101/qMUAZEy/playlist.m3u8
-#EXTINF:-1 tvg-id="Canal3KMKTV.cr" tvg-logo="" group-title="Música",Canal 3 KMK TV (alt 1)
-https://live20.bozztv.com/giatv/giatv-KMKTV/KMKTV/chunks.m3u8
-#EXTINF:-1 tvg-id="GexTV.cr" tvg-logo="" group-title="Música",Gex TV (alt 1)
-https://live20.bozztv.com/akamaissh101/ssh101/gextvaccess/playlist.m3u8
-#EXTINF:-1 tvg-id="RetroxTV.cr" tvg-logo="" group-title="Animación",Retrox TV (alt 1)
-https://lbgo.bozztv.com/ssh101/ssh101/retyroxtv/playlist.m3u8
-#EXTINF:-1 tvg-id="RetroxTV.cr" tvg-logo="" group-title="Animación",Retrox TV (alt 2)
-https://live20.bozztv.com/giatv/giatv-TVCHANNEL/TVCHANNEL/chunks.m3u8
-#EXTINF:-1 tvg-id="RetroxTV.cr" tvg-logo="" group-title="Animación",Retrox TV (alt 3)
-https://live20.bozztv.com/giatv/giatv-TVCHANNEL/TVCHANNEL/playlist.m3u8
-#EXTINF:-1 tvg-id="MontonesTV.do" tvg-logo="" group-title="Música",Montones TV (alt 1)
-https://lbgo.bozztv.com/ssh101/ssh101/montonestv1/playlist.m3u8
-#EXTINF:-1 tvg-id="PantallaClasicaEC.ec" tvg-logo="" group-title="Clásicos",Pantalla Clásica EC (alt 1)
-https://live21.bozztv.com/akamaissh101/ssh101/pantallaclasics/playlist.m3u8
-#EXTINF:-1 tvg-id="PrattelTV.pe" tvg-logo="" group-title="Música",Prattel TV (alt 1)
-https://183.bozztv.com/ssh101/ssh101/pratteltvperu/playlist.m3u8
+#EXTINF:-1 tvg-logo="" group-title="YouTube",Lofi Girl
+https://www.youtube.com/@LofiGirl
+#EXTINF:-1 tvg-logo="" group-title="YouTube",Al Jazeera English
+https://www.youtube.com/@aljazeeraenglish
