@@ -1,4 +1,4 @@
-Revision 2026-11-05 04:22 UTC: 38 en la lista, 5 ocultos, 43 total
+Revision 2026-11-05 04:24 UTC: 42 en la lista, 5 ocultos, 47 total
 
 No se pudieron verificar (siguen en la lista):
   [~] Canal 9 Mendoza  (HTTP 403, posible bloqueo por pais)
@@ -7,8 +7,8 @@ No se pudieron verificar (siguen en la lista):
   [~] Telefe Tucumán  (HTTP 403, posible bloqueo por pais)
 
 Ocultos (caidos):
-  [X] Retro Toons  (HTTP 404, 16 fallos seguidos)
-  [X] Canal Retrox TV  (HTTP 404, 16 fallos seguidos)
-  [X] Retro Plus 1  (HTTP 404, 16 fallos seguidos)
-  [X] Retro Plus 2  (HTTP 404, 16 fallos seguidos)
-  [X] Cartoon Network Clasico LAT  (HTTP 404, 16 fallos seguidos)
+  [X] Retro Toons  (HTTP 404, 17 fallos seguidos)
+  [X] Canal Retrox TV  (HTTP 404, 17 fallos seguidos)
+  [X] Retro Plus 1  (HTTP 404, 17 fallos seguidos)
+  [X] Retro Plus 2  (HTTP 404, 17 fallos seguidos)
+  [X] Cartoon Network Clasico LAT  (HTTP 404, 17 fallos seguidos)
