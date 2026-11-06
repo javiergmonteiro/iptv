@@ -1,6 +1,6 @@
 {
  "https://live20.bozztv.com/akamaissh101/ssh101/retrotoons/chunks.m3u8": {
-  "fallos": 23,
+  "fallos": 24,
   "ultimo": "HTTP 404"
  },
  "https://unlimited1-saopaulo.dps.live/televidaar/televidaar.smil/televidaar/livestream1/chunks.m3u8": {
@@ -8,7 +8,7 @@
   "ultimo": "HTTP 403, posible bloqueo por pais"
  },
  "https://lbgo.bozztv.com/ssh101/ssh101/retyroxtv/chunks.m3u8": {
-  "fallos": 23,
+  "fallos": 24,
   "ultimo": "HTTP 404"
  },
  "https://g1.mc-slo.transport.edge-access.net/b08/ngrp:CM_CanaldelaMusica-100044_all/Playlist.m3u8?sense=true": {
@@ -24,11 +24,11 @@
   "ultimo": "HTTP 200"
  },
  "https://scl.edge.grupoz.cl/retroplustvuno/live/chunklist_w1463797368.m3u8": {
-  "fallos": 23,
+  "fallos": 24,
   "ultimo": "HTTP 404"
  },
  "https://scl.edge.grupoz.cl/retroplustvdos/live/chunklist_w349133620.m3u8": {
-  "fallos": 23,
+  "fallos": 24,
   "ultimo": "HTTP 404"
  },
  "https://live2.tensila.com/1-1-1.power-tv/hls/live/mystream.m3u8": {
@@ -76,7 +76,7 @@
   "ultimo": "HTTP 200"
  },
  "https://live20.bozztv.com/akamaissh101/ssh101/cartoonclasico/playlist.m3u8": {
-  "fallos": 23,
+  "fallos": 24,
   "ultimo": "HTTP 404"
  },
  "https://627bb251f23c7.streamlock.net:444/ExtremaKids/ExtremaKids/playlist.m3u8": {
@@ -214,7 +214,7 @@
  },
  "https://www.youtube.com/@cronicatv": {
   "fallos": 0,
-  "ultimo": "CRÓNICA EN VIVO LAS 24 HORAS [hw4uHyct4vg, ID nuevo]",
+  "ultimo": "CRÓNICA EN VIVO LAS 24 HORAS [hw4uHyct4vg]",
   "video_id": "hw4uHyct4vg"
  },
  "https://www.youtube.com/@Telefenoticias": {
