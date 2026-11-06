@@ -1,11 +1,10 @@
-Revision 2026-11-06 13:26 UTC: 54 en la lista, 5 ocultos, 59 total
+Revision 2026-11-06 22:31 UTC: 53 en la lista, 6 ocultos, 59 total
 
 Directos de YouTube:
   [YT] Yu-Gi-Oh! Duel Monsters  (Yu-Gi-Oh! Duel Monsters en Español [434nAi7ibV4])
-  [YT] Yu-Gi-Oh! GX  (Yu-Gi-Oh! GX en Español Latino [zpfvKzuCB-k])
   [YT] TN  (TN EN VIVO - SEGUÍ LA TRANSMISIÓN EN VIVO DE TODO NOTICIAS [cb12KmMMDJA])
   [YT] C5N  (C5N EN VIVO | Toda la información en un solo lugar | Seguí l [rZtTUCxpPuI])
-  [YT] LN+  (LN+ EN VIVO | Últimas noticias de Argentina y el mundo [FEWZjXJ7M0c])
+  [YT] LN+  (EN VIVO | EL PAPA LEÓN XIV LLEGÓ A URUGUAY E INICIÓ SI GIRA  [g4-EItUA9q8, ID nuevo])
   [YT] Crónica TV  (CRÓNICA EN VIVO LAS 24 HORAS [hw4uHyct4vg])
   [YT] Telefe Noticias  (EN VIVO 🔴 TELEFE NOTICIAS 24HS DE INFORMACIÓN [XhAYcYpPzTc])
   [YT] Canal 26  (🔴 CANAL 26 EN VIVO EN 4K - Noticias internacionales [iaooxPL8G_I])
@@ -14,6 +13,9 @@ Directos de YouTube:
   [YT] Tom y Jerry Clásicos  (🔴 LIVE: Tom and Jerry Golden Era Live Stream! | 1940's-1970' [400k2SKoeh4])
   [YT] Popeye  (🔴 LIVE! NONSTOP Popeye the Sailor Man ⚓ | Classic Cartoon Ma [H3uNIvTive4])
 
+Fallaron esta vez (siguen en la lista):
+  [?] Canal 3 KMK TV  (HTTP 503, fallo 1/2)
+
 No se pudieron verificar (siguen en la lista):
   [~] Canal 9 Mendoza  (HTTP 403, posible bloqueo por pais)
   [~] Canal de la Música  (HTTP 403, posible bloqueo por pais)
@@ -21,8 +23,9 @@ No se pudieron verificar (siguen en la lista):
   [~] Telefe Tucumán  (HTTP 403, posible bloqueo por pais)
 
 Ocultos (caidos):
-  [X] Retro Toons  (HTTP 404, 24 fallos seguidos)
-  [X] Canal Retrox TV  (HTTP 404, 24 fallos seguidos)
-  [X] Retro Plus 1  (HTTP 404, 24 fallos seguidos)
-  [X] Retro Plus 2  (HTTP 404, 24 fallos seguidos)
-  [X] Cartoon Network Clasico LAT  (HTTP 404, 24 fallos seguidos)
+  [X] Retro Toons  (HTTP 404, 25 fallos seguidos)
+  [X] Canal Retrox TV  (HTTP 404, 25 fallos seguidos)
+  [X] Retro Plus 1  (HTTP 404, 25 fallos seguidos)
+  [X] Retro Plus 2  (HTTP 404, 25 fallos seguidos)
+  [X] Cartoon Network Clasico LAT  (HTTP 404, 25 fallos seguidos)
+  [X] Yu-Gi-Oh! GX  (no esta transmitiendo en vivo, 1 fallos seguidos)
