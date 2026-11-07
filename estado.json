@@ -1,6 +1,6 @@
 {
  "https://live20.bozztv.com/akamaissh101/ssh101/retrotoons/chunks.m3u8": {
-  "fallos": 27,
+  "fallos": 28,
   "ultimo": "HTTP 404"
  },
  "https://unlimited1-saopaulo.dps.live/televidaar/televidaar.smil/televidaar/livestream1/chunks.m3u8": {
@@ -8,7 +8,7 @@
   "ultimo": "HTTP 403, posible bloqueo por pais"
  },
  "https://lbgo.bozztv.com/ssh101/ssh101/retyroxtv/chunks.m3u8": {
-  "fallos": 27,
+  "fallos": 28,
   "ultimo": "HTTP 404"
  },
  "https://g1.mc-slo.transport.edge-access.net/b08/ngrp:CM_CanaldelaMusica-100044_all/Playlist.m3u8?sense=true": {
@@ -24,11 +24,11 @@
   "ultimo": "HTTP 200"
  },
  "https://scl.edge.grupoz.cl/retroplustvuno/live/chunklist_w1463797368.m3u8": {
-  "fallos": 27,
+  "fallos": 28,
   "ultimo": "HTTP 404"
  },
  "https://scl.edge.grupoz.cl/retroplustvdos/live/chunklist_w349133620.m3u8": {
-  "fallos": 27,
+  "fallos": 28,
   "ultimo": "HTTP 404"
  },
  "https://live2.tensila.com/1-1-1.power-tv/hls/live/mystream.m3u8": {
@@ -76,7 +76,7 @@
   "ultimo": "HTTP 200"
  },
  "https://live20.bozztv.com/akamaissh101/ssh101/cartoonclasico/playlist.m3u8": {
-  "fallos": 27,
+  "fallos": 28,
   "ultimo": "HTTP 404"
  },
  "https://627bb251f23c7.streamlock.net:444/ExtremaKids/ExtremaKids/playlist.m3u8": {
@@ -152,7 +152,7 @@
   "ultimo": "HTTP 200"
  },
  "https://live20.bozztv.com/akamaissh101/ssh101/somosentrerios/playlist.m3u8": {
-  "fallos": 2,
+  "fallos": 3,
   "ultimo": "HTTP 404"
  },
  "https://live20.bozztv.com/akamaissh101/ssh101/canal8sanjuan/playlist.m3u8": {
@@ -172,8 +172,8 @@
   "ultimo": "HTTP 200"
  },
  "https://lbgo.bozztv.com/ssh101/ssh101/verycoolfgr/playlist.m3u8": {
-  "fallos": 1,
-  "ultimo": "HTTP 502"
+  "fallos": 0,
+  "ultimo": "HTTP 200"
  },
  "https://live20.bozztv.com/giatv/giatv-KMKTV/KMKTV/chunks.m3u8": {
   "fallos": 0,
@@ -184,8 +184,8 @@
   "ultimo": "HTTP 200"
  },
  "https://lbgo.bozztv.com/ssh101/ssh101/montonestv1/playlist.m3u8": {
-  "fallos": 1,
-  "ultimo": "HTTP 502"
+  "fallos": 0,
+  "ultimo": "HTTP 200"
  },
  "https://www.youtube.com/live/434nAi7ibV4": {
   "fallos": 0,
@@ -193,7 +193,7 @@
   "video_id": "434nAi7ibV4"
  },
  "https://www.youtube.com/live/zpfvKzuCB-k": {
-  "fallos": 3,
+  "fallos": 4,
   "ultimo": "no esta transmitiendo en vivo",
   "video_id": "zpfvKzuCB-k"
  },
@@ -209,8 +209,8 @@
  },
  "https://www.youtube.com/@lanacion": {
   "fallos": 0,
-  "ultimo": "LN+ EN VIVO | Últimas noticias de Argentina y el mundo [FEWZjXJ7M0c, ID nuevo]",
-  "video_id": "FEWZjXJ7M0c"
+  "ultimo": "EN VIVO | LA MISA DEL PAPA LEÓN XIV EN URUGUAY [QWKW_yT8oy8, ID nuevo]",
+  "video_id": "QWKW_yT8oy8"
  },
  "https://www.youtube.com/@cronicatv": {
   "fallos": 0,
