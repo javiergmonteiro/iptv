@@ -1,12 +1,12 @@
-Revision 2026-11-08 12:26 UTC: 52 en la lista, 7 ocultos, 59 total
+Revision 2026-11-08 21:28 UTC: 51 en la lista, 8 ocultos, 59 total
 
 Directos de YouTube:
   [YT] Yu-Gi-Oh! Duel Monsters  (Yu-Gi-Oh! Duel Monsters en Español [434nAi7ibV4])
-  [YT] TN  (TN EN VIVO - SEGUÍ LA TRANSMISIÓN EN VIVO DE TODO NOTICIAS [cb12KmMMDJA])
+  [YT] TN  (TN EN VIVO - SEGUÍ LA VISITA DEL PAPA LEÓN XIV A LA ARGENTIN [cb12KmMMDJA])
   [YT] C5N  (C5N EN VIVO | Toda la información en un solo lugar | Seguí l [rZtTUCxpPuI])
-  [YT] LN+  (LN+ EN VIVO | Últimas noticias de Argentina y el mundo [FEWZjXJ7M0c])
+  [YT] LN+  (EN VIVO -  MILEI RECIBE AL PAPA LEÓN XIV EN LA CASA ROSADA [QrZLGz5gNe4, ID nuevo])
   [YT] Crónica TV  (CRÓNICA EN VIVO LAS 24 HORAS [hw4uHyct4vg])
-  [YT] Telefe Noticias  (EN VIVO 🔴 TELEFE NOTICIAS 24HS DE INFORMACIÓN [XhAYcYpPzTc])
+  [YT] Telefe Noticias  (Juntos por el Papa: LEÓN XIV LLEGA a la ARGENTINA - #TelefeN [uVEqVSGesDs, ID nuevo])
   [YT] Canal 26  (🔴 CANAL 26 EN VIVO EN 4K - Noticias internacionales [iaooxPL8G_I])
   [YT] América TV Internacional  (🔴 AMÉRICA TV INTERNACIONAL EN VIVO 📺 [zcWXboTnous])
   [YT] Canal Rural  (CANAL RURAL EN VIVO [w78Zr0J-dIs])
@@ -14,8 +14,21 @@ Directos de YouTube:
   [YT] Popeye  (🔴 LIVE! NONSTOP Popeye the Sailor Man ⚓ | Classic Cartoon Ma [H3uNIvTive4])
 
 Fallaron esta vez (siguen en la lista):
-  [?] Retro Plus 3  (HTTP 404, fallo 1/2)
-  [?] Gogoplay  (HTTP 404, fallo 1/2)
+  [?] Locomotion  (URLError, fallo 1/2)
+  [?] Canal Dragon Ball  (URLError, fallo 1/2)
+  [?] Canal Dragon Ball Películas  (URLError, fallo 1/2)
+  [?] Simpsons TV  (URLError, fallo 1/2)
+  [?] Mix Bolivia TV  (URLError, fallo 1/2)
+  [?] Retro Magico  (URLError, fallo 1/2)
+  [?] TaltalTV Clasico  (URLError, fallo 1/2)
+  [?] Moni TV peliculas  (URLError, fallo 1/2)
+  [?] Señal U  (URLError, fallo 1/2)
+  [?] Somos Entre Ríos  (URLError, fallo 1/2)
+  [?] Canal 8 San Juan  (URLError, fallo 1/2)
+  [?] Ciudad Mágica  (URLError, fallo 1/2)
+  [?] Canal 3 KMK TV  (URLError, fallo 1/2)
+  [?] Gex TV  (URLError, fallo 1/2)
+  [?] Montones TV  (URLError, fallo 1/2)
 
 No se pudieron verificar (siguen en la lista):
   [~] Canal 9 Mendoza  (HTTP 403, posible bloqueo por pais)
@@ -24,10 +37,11 @@ No se pudieron verificar (siguen en la lista):
   [~] Telefe Tucumán  (HTTP 403, posible bloqueo por pais)
 
 Ocultos (caidos):
-  [X] Retro Toons  (HTTP 404, 30 fallos seguidos)
-  [X] Canal Retrox TV  (HTTP 404, 30 fallos seguidos)
-  [X] Retro Plus 1  (HTTP 404, 30 fallos seguidos)
-  [X] Retro Plus 2  (HTTP 404, 30 fallos seguidos)
-  [X] Magic Kids  (HTTP 404, 2 fallos seguidos)
-  [X] Cartoon Network Clasico LAT  (HTTP 404, 30 fallos seguidos)
-  [X] Yu-Gi-Oh! GX  (no esta transmitiendo en vivo, 6 fallos seguidos)
+  [X] Retro Toons  (URLError, 31 fallos seguidos)
+  [X] Canal Retrox TV  (URLError, 31 fallos seguidos)
+  [X] Retro Plus 1  (HTTP 404, 31 fallos seguidos)
+  [X] Retro Plus 2  (HTTP 404, 31 fallos seguidos)
+  [X] Gogoplay  (URLError, 2 fallos seguidos)
+  [X] Magic Kids  (URLError, 3 fallos seguidos)
+  [X] Cartoon Network Clasico LAT  (URLError, 31 fallos seguidos)
+  [X] Yu-Gi-Oh! GX  (no esta transmitiendo en vivo, 7 fallos seguidos)

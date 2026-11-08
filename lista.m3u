@@ -15,8 +15,6 @@ https://live20.bozztv.com/giatv/giatv-dball/dball/playlist.m3u8
 https://lbgo.bozztv.com/ssh101/ssh101/gokupelis/playlist.m3u8
 #EXTINF:0 tvg-id=" tvg-logo="" group-title="Música",Retromusic TV
 https://stream.enlineatv.net/hls/retromusic/index.m3u8
-#EXTINF:0 tvg-id=" tvg-logo="" group-title="Animación",Gogoplay
-https://lbgo.bozztv.com/ssh101/ssh101/gogoplay/playlist.m3u8
 #EXTINF:0 tvg-id=" tvg-logo="" group-title="Animación",Simpsons TV
 https://lbgo.bozztv.com/ssh101/ssh101/simplat/playlist.m3u8
 #EXTINF:0 tvg-id=" tvg-logo="" group-title="",Mix Bolivia TV
@@ -88,11 +86,11 @@ plugin://plugin.video.youtube/play/?video_id=cb12KmMMDJA
 #EXTINF:-1 tvg-logo="" group-title="YouTube Noticias",C5N
 plugin://plugin.video.youtube/play/?video_id=rZtTUCxpPuI
 #EXTINF:-1 tvg-logo="" group-title="YouTube Noticias",LN+
-plugin://plugin.video.youtube/play/?video_id=FEWZjXJ7M0c
+plugin://plugin.video.youtube/play/?video_id=QrZLGz5gNe4
 #EXTINF:-1 tvg-logo="" group-title="YouTube Noticias",Crónica TV
 plugin://plugin.video.youtube/play/?video_id=hw4uHyct4vg
 #EXTINF:-1 tvg-logo="" group-title="YouTube Noticias",Telefe Noticias
-plugin://plugin.video.youtube/play/?video_id=XhAYcYpPzTc
+plugin://plugin.video.youtube/play/?video_id=uVEqVSGesDs
 #EXTINF:-1 tvg-logo="" group-title="YouTube Noticias",Canal 26
 plugin://plugin.video.youtube/play/?video_id=iaooxPL8G_I
 #EXTINF:-1 tvg-logo="" group-title="YouTube Noticias",América TV Internacional
