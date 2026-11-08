@@ -21,8 +21,6 @@ https://lbgo.bozztv.com/ssh101/ssh101/gogoplay/playlist.m3u8
 https://lbgo.bozztv.com/ssh101/ssh101/simplat/playlist.m3u8
 #EXTINF:0 tvg-id=" tvg-logo="" group-title="",Mix Bolivia TV
 https://lbgo.bozztv.com/ssh101/ssh101/mixboliviatvhd/playlist.m3u8
-#EXTINF:0 tvg-id=" tvg-logo="" group-title="Animación",Magic Kids
-https://183.bozztv.com/giatv/giatv-magicplus/magicplus/playlist.m3u8
 #EXTINF:0 tvg-id=" tvg-logo="" group-title="Animación",Retro Magico
 https://183.bozztv.com/giatv/giatv-retromagicochnl/retromagicochnl/playlist.m3u8
 #EXTINF:0 tvg-id=" tvg-logo="" group-title="Animación",TaltalTV Clasico
@@ -65,6 +63,8 @@ http://45.134.141.161:2200/ARG/Net_TV/index.m3u8
 https://g2.mc-hor.transport.edge-access.net/a05/ngrp:elochotv-100168_all/Playlist.m3u8?sense=true
 #EXTINF:-1 tvg-id="SenalU.ar" tvg-logo="" group-title="Argentina",Señal U
 https://live20.bozztv.com/giatv/giatv-canal30tda/canal30tda/chunks.m3u8
+#EXTINF:-1 tvg-id="SomosEntreRios.ar" tvg-logo="" group-title="Argentina",Somos Entre Ríos
+https://live20.bozztv.com/akamaissh101/ssh101/somosentrerios/playlist.m3u8
 #EXTINF:-1 tvg-id="Canal8SanJuan.ar" tvg-logo="" group-title="Argentina",Canal 8 San Juan
 https://live20.bozztv.com/akamaissh101/ssh101/canal8sanjuan/playlist.m3u8
 #EXTINF:-1 tvg-id="LaClave.cl" tvg-logo="" group-title="Música",La Clave
