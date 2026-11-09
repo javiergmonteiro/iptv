@@ -5,26 +5,10 @@ https://unlimited1-saopaulo.dps.live/televidaar/televidaar.smil/televidaar/lives
 https://g1.mc-slo.transport.edge-access.net/b08/ngrp:CM_CanaldelaMusica-100044_all/Playlist.m3u8?sense=true
 #EXTINF:-1 tvg-id=" tvg-logo="https://files.catbox.moe/kytmm2.png" group-title="Música",Radio La 100
 https://mdstrm.com/live-stream-playlist/68b74fd1d6512526f1f7c75a.m3u8
-#EXTINF:0 tvg-id=" tvg-logo="" group-title="Animación",Locomotion
-https://lbgo.bozztv.com/ssh101/ssh101/myevent2025/playlist.m3u8
 #EXTINF:0 tvg-id=" tvg-logo="" group-title="Música",Retro Plus 3
 https://live2.tensila.com/1-1-1.power-tv/hls/live/mystream.m3u8
-#EXTINF:0 tvg-id=" tvg-logo="" group-title="Animación",Canal Dragon Ball
-https://live20.bozztv.com/giatv/giatv-dball/dball/playlist.m3u8
-#EXTINF:0 tvg-id=" tvg-logo="" group-title="Animación",Canal Dragon Ball Películas
-https://lbgo.bozztv.com/ssh101/ssh101/gokupelis/playlist.m3u8
 #EXTINF:0 tvg-id=" tvg-logo="" group-title="Música",Retromusic TV
 https://stream.enlineatv.net/hls/retromusic/index.m3u8
-#EXTINF:0 tvg-id=" tvg-logo="" group-title="Animación",Simpsons TV
-https://lbgo.bozztv.com/ssh101/ssh101/simplat/playlist.m3u8
-#EXTINF:0 tvg-id=" tvg-logo="" group-title="",Mix Bolivia TV
-https://lbgo.bozztv.com/ssh101/ssh101/mixboliviatvhd/playlist.m3u8
-#EXTINF:0 tvg-id=" tvg-logo="" group-title="Animación",Retro Magico
-https://183.bozztv.com/giatv/giatv-retromagicochnl/retromagicochnl/playlist.m3u8
-#EXTINF:0 tvg-id=" tvg-logo="" group-title="Animación",TaltalTV Clasico
-https://live20.bozztv.com/giatvplayout7/giatv-210394/tracks-v1a1/mono.ts.m3u8
-#EXTINF:0 tvg-id=" tvg-logo="" group-title="Animación",Moni TV peliculas
-https://lbgo.bozztv.com/ssh101/ssh101/monitvhd/playlist.m3u8
 #EXTINF:-1 tvg-id="ExtremaKidsTV.cr" tvg-country="CR" tvg-logo="" group-title="Animación",Extrema Kids TV
 https://627bb251f23c7.streamlock.net:444/ExtremaKids/ExtremaKids/playlist.m3u8
 #EXTINF:-1 tvg-id="GikTVMX.mx" tvg-country="MX" tvg-logo="" group-title="Animación",GikTVMX
@@ -59,26 +43,12 @@ https://unlimited1-us.dps.live/carastv/carastv.smil/playlist.m3u8
 http://45.134.141.161:2200/ARG/Net_TV/index.m3u8
 #EXTINF:-1 tvg-id="TelefeTucuman.ar" tvg-logo="" group-title="Argentina",Telefe Tucumán
 https://g2.mc-hor.transport.edge-access.net/a05/ngrp:elochotv-100168_all/Playlist.m3u8?sense=true
-#EXTINF:-1 tvg-id="SenalU.ar" tvg-logo="" group-title="Argentina",Señal U
-https://live20.bozztv.com/giatv/giatv-canal30tda/canal30tda/chunks.m3u8
-#EXTINF:-1 tvg-id="SomosEntreRios.ar" tvg-logo="" group-title="Argentina",Somos Entre Ríos
-https://live20.bozztv.com/akamaissh101/ssh101/somosentrerios/playlist.m3u8
-#EXTINF:-1 tvg-id="Canal8SanJuan.ar" tvg-logo="" group-title="Argentina",Canal 8 San Juan
-https://live20.bozztv.com/akamaissh101/ssh101/canal8sanjuan/playlist.m3u8
 #EXTINF:-1 tvg-id="LaClave.cl" tvg-logo="" group-title="Música",La Clave
 https://unlimited1-cl-isp.dps.live/laclavetv/laclavetv.smil/playlist.m3u8
 #EXTINF:-1 tvg-id="RadioDuna.cl" tvg-logo="" group-title="Música",Radio Duna
 https://mdstrm.com/live-stream-playlist/67ed8a8d6db4af9a0188555c.m3u8
 #EXTINF:-1 tvg-id="RadioPudahuel.cl" tvg-logo="" group-title="Música",Radio Pudahuel
 https://unlimited2-cl-isp.dps.live/pudahueltv/pudahueltv.smil/playlist.m3u8
-#EXTINF:-1 tvg-id="CiudadMagica.ar" tvg-logo="" group-title="Argentina",Ciudad Mágica
-https://lbgo.bozztv.com/ssh101/ssh101/verycoolfgr/playlist.m3u8
-#EXTINF:-1 tvg-id="Canal3KMKTV.cr" tvg-logo="" group-title="Música",Canal 3 KMK TV
-https://live20.bozztv.com/giatv/giatv-KMKTV/KMKTV/chunks.m3u8
-#EXTINF:-1 tvg-id="GexTV.cr" tvg-logo="" group-title="Música",Gex TV
-https://live20.bozztv.com/akamaissh101/ssh101/gextvaccess/playlist.m3u8
-#EXTINF:-1 tvg-id="MontonesTV.do" tvg-logo="" group-title="Música",Montones TV
-https://lbgo.bozztv.com/ssh101/ssh101/montonestv1/playlist.m3u8
 #EXTINF:-1 tvg-logo="" group-title="YouTube Anime",Yu-Gi-Oh! Duel Monsters
 plugin://plugin.video.youtube/play/?video_id=434nAi7ibV4
 #EXTINF:-1 tvg-logo="" group-title="YouTube Noticias",TN
@@ -86,11 +56,11 @@ plugin://plugin.video.youtube/play/?video_id=cb12KmMMDJA
 #EXTINF:-1 tvg-logo="" group-title="YouTube Noticias",C5N
 plugin://plugin.video.youtube/play/?video_id=rZtTUCxpPuI
 #EXTINF:-1 tvg-logo="" group-title="YouTube Noticias",LN+
-plugin://plugin.video.youtube/play/?video_id=QrZLGz5gNe4
+plugin://plugin.video.youtube/play/?video_id=FEWZjXJ7M0c
 #EXTINF:-1 tvg-logo="" group-title="YouTube Noticias",Crónica TV
 plugin://plugin.video.youtube/play/?video_id=hw4uHyct4vg
 #EXTINF:-1 tvg-logo="" group-title="YouTube Noticias",Telefe Noticias
-plugin://plugin.video.youtube/play/?video_id=uVEqVSGesDs
+plugin://plugin.video.youtube/play/?video_id=XhAYcYpPzTc
 #EXTINF:-1 tvg-logo="" group-title="YouTube Noticias",Canal 26
 plugin://plugin.video.youtube/play/?video_id=iaooxPL8G_I
 #EXTINF:-1 tvg-logo="" group-title="YouTube Noticias",América TV Internacional
