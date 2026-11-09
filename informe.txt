@@ -1,7 +1,9 @@
-Revision 2026-11-05 04:45 UTC: 4 en la lista, 0 ocultos, 4 total
+Revision 2026-11-09 05:12 UTC: 3 en la lista, 1 ocultos, 4 total
 
 Directos de YouTube:
   [YT] Yu-Gi-Oh! Duel Monsters  (Yu-Gi-Oh! Duel Monsters en Español [434nAi7ibV4])
-  [YT] Yu-Gi-Oh! GX  (Yu-Gi-Oh! GX en Español Latino [zpfvKzuCB-k])
   [YT] Lofi Girl  (christmas lofi radio 🎄 cozy ambience to relax to [4t4AQ15yj1M])
   [YT] Al Jazeera English  (🔴 Al Jazeera English | Live [gCNeDWCI0vo])
+
+Ocultos (caidos):
+  [X] Yu-Gi-Oh! GX  (no esta transmitiendo en vivo, 1 fallos seguidos)
