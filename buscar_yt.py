@@ -1,20 +1,17 @@
-import socket, ssl, urllib.request, time
+import re, urllib.request, collections
+UA={"User-Agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) Chrome/130.0 Safari/537.36"}
+def get(u):
+    try: return urllib.request.urlopen(urllib.request.Request(u,headers=UA),timeout=20).read(3_000_000).decode("utf-8","ignore")
+    except Exception as e: return f"ERROR {e!r}"
 out=[]
-urls=["https://lbgo.bozztv.com/ssh101/ssh101/myevent2025/playlist.m3u8","https://live20.bozztv.com/akamaissh101/ssh101/cartoonclasico/playlist.m3u8","https://183.bozztv.com/giatv/giatv-magicplus/magicplus/playlist.m3u8","https://bozztv.com/","https://ssh101.com/"]
-for h in ["lbgo.bozztv.com","live20.bozztv.com","183.bozztv.com","bozztv.com","ssh101.com"]:
-    try: out.append(f"DNS {h}: {sorted({a[4][0] for a in socket.getaddrinfo(h,443)})}")
-    except Exception as e: out.append(f"DNS {h}: ERROR {e!r}")
-for u in urls:
-    t=time.time()
-    try:
-        r=urllib.request.urlopen(urllib.request.Request(u,headers={"User-Agent":"Mozilla/5.0"}),timeout=20)
-        out.append(f"{u} -> {r.status} {r.read(200)[:120]!r} ({time.time()-t:.1f}s)")
-    except urllib.error.HTTPError as e: out.append(f"{u} -> HTTP {e.code}")
-    except Exception as e: out.append(f"{u} -> {type(e).__name__}: {getattr(e,'reason',e)!r} ({time.time()-t:.1f}s)")
-for u in urls[:2]:
-    try:
-        ctx=ssl.create_default_context(); ctx.check_hostname=False; ctx.verify_mode=ssl.CERT_NONE
-        r=urllib.request.urlopen(urllib.request.Request(u,headers={"User-Agent":"Mozilla/5.0"}),timeout=20,context=ctx)
-        out.append(f"SIN VERIFICAR CERT {u} -> {r.status}")
-    except Exception as e: out.append(f"SIN VERIFICAR CERT {u} -> {type(e).__name__}: {getattr(e,'reason',e)!r}")
+for u in ["https://ssh101.com/","https://ssh101.com/live/myevent2025","https://v2.ssh101.com/home.php","https://ssh101.com/live/magicplus"]:
+    h=get(u)
+    out.append(f"== {u} len={len(h)} {h[:80]!r}" if h.startswith("ERROR") else f"== {u} len={len(h)}")
+    urls=re.findall(r'https?://[^\s"\'<>\\]+',h)
+    dom=collections.Counter(re.sub(r'^https?://([^/]+).*',r'\1',x) for x in urls)
+    out.append("dominios: "+", ".join(f"{d}({n})" for d,n in dom.most_common(25)))
+    for x in sorted({x for x in urls if '.m3u8' in x or 'hls' in x.lower() or 'stream' in x.lower()})[:15]: out.append("  "+x)
+    for m in re.finditer(r'(myevent2025|locomotion)',h,re.I): out.append("  ctx: "+h[max(0,m.start()-150):m.end()+150].replace("\n"," "))
+for u in ["https://lbgo.ssh101.com/ssh101/ssh101/myevent2025/playlist.m3u8"]:
+    out.append(f"{u} -> {get(u)[:120]!r}")
 open("busqueda_yt.txt","w").write("\n".join(out)+"\n")
