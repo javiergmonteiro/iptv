@@ -11,8 +11,6 @@ https://live2.tensila.com/1-1-1.power-tv/hls/live/mystream.m3u8
 https://stream.enlineatv.net/hls/retromusic/index.m3u8
 #EXTINF:-1 tvg-id="ExtremaKidsTV.cr" tvg-country="CR" tvg-logo="" group-title="Animación",Extrema Kids TV
 https://627bb251f23c7.streamlock.net:444/ExtremaKids/ExtremaKids/playlist.m3u8
-#EXTINF:-1 tvg-id="GikTVMX.mx" tvg-country="MX" tvg-logo="" group-title="Animación",GikTVMX
-https://pistream.ddns.net/hls/stream.m3u8
 #EXTINF:-1 tvg-id="LAMIL35TV.ar" tvg-country="AR" tvg-logo="" group-title="Animación",LAMIL35 TV
 https://vtm2.msinteractiva.com/lamil35/lamil35/playlist.m3u8
 #EXTINF:-1 tvg-id="TigueritoTV.do" tvg-country="DO" tvg-logo="" group-title="Animación",Tiguerito TV
@@ -56,7 +54,7 @@ plugin://plugin.video.youtube/play/?video_id=cb12KmMMDJA
 #EXTINF:-1 tvg-logo="" group-title="YouTube Noticias",C5N
 plugin://plugin.video.youtube/play/?video_id=rZtTUCxpPuI
 #EXTINF:-1 tvg-logo="" group-title="YouTube Noticias",LN+
-plugin://plugin.video.youtube/play/?video_id=z9qDUH1dNEI
+plugin://plugin.video.youtube/play/?video_id=O1V7Jjh_Y5k
 #EXTINF:-1 tvg-logo="" group-title="YouTube Noticias",Crónica TV
 plugin://plugin.video.youtube/play/?video_id=hw4uHyct4vg
 #EXTINF:-1 tvg-logo="" group-title="YouTube Noticias",Telefe Noticias
