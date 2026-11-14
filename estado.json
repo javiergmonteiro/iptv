@@ -1,6 +1,6 @@
 {
  "https://live20.bozztv.com/akamaissh101/ssh101/retrotoons/chunks.m3u8": {
-  "fallos": 46,
+  "fallos": 47,
   "ultimo": "URLError"
  },
  "https://unlimited1-saopaulo.dps.live/televidaar/televidaar.smil/televidaar/livestream1/chunks.m3u8": {
@@ -8,7 +8,7 @@
   "ultimo": "HTTP 403, posible bloqueo por pais"
  },
  "https://lbgo.bozztv.com/ssh101/ssh101/retyroxtv/chunks.m3u8": {
-  "fallos": 46,
+  "fallos": 47,
   "ultimo": "HTTP 502"
  },
  "https://g1.mc-slo.transport.edge-access.net/b08/ngrp:CM_CanaldelaMusica-100044_all/Playlist.m3u8?sense=true": {
@@ -20,15 +20,15 @@
   "ultimo": "HTTP 200"
  },
  "https://lbgo.bozztv.com/ssh101/ssh101/myevent2025/playlist.m3u8": {
-  "fallos": 16,
+  "fallos": 17,
   "ultimo": "HTTP 502"
  },
  "https://scl.edge.grupoz.cl/retroplustvuno/live/chunklist_w1463797368.m3u8": {
-  "fallos": 46,
+  "fallos": 47,
   "ultimo": "HTTP 404"
  },
  "https://scl.edge.grupoz.cl/retroplustvdos/live/chunklist_w349133620.m3u8": {
-  "fallos": 46,
+  "fallos": 47,
   "ultimo": "HTTP 404"
  },
  "https://live2.tensila.com/1-1-1.power-tv/hls/live/mystream.m3u8": {
@@ -36,11 +36,11 @@
   "ultimo": "HTTP 200"
  },
  "https://live20.bozztv.com/giatv/giatv-dball/dball/playlist.m3u8": {
-  "fallos": 16,
+  "fallos": 17,
   "ultimo": "URLError"
  },
  "https://lbgo.bozztv.com/ssh101/ssh101/gokupelis/playlist.m3u8": {
-  "fallos": 16,
+  "fallos": 17,
   "ultimo": "HTTP 502"
  },
  "https://stream.enlineatv.net/hls/retromusic/index.m3u8": {
@@ -48,35 +48,35 @@
   "ultimo": "HTTP 200"
  },
  "https://lbgo.bozztv.com/ssh101/ssh101/gogoplay/playlist.m3u8": {
-  "fallos": 17,
+  "fallos": 18,
   "ultimo": "HTTP 502"
  },
  "https://lbgo.bozztv.com/ssh101/ssh101/simplat/playlist.m3u8": {
-  "fallos": 16,
+  "fallos": 17,
   "ultimo": "HTTP 502"
  },
  "https://lbgo.bozztv.com/ssh101/ssh101/mixboliviatvhd/playlist.m3u8": {
-  "fallos": 16,
+  "fallos": 17,
   "ultimo": "HTTP 502"
  },
  "https://183.bozztv.com/giatv/giatv-magicplus/magicplus/playlist.m3u8": {
-  "fallos": 18,
+  "fallos": 19,
   "ultimo": "URLError"
  },
  "https://183.bozztv.com/giatv/giatv-retromagicochnl/retromagicochnl/playlist.m3u8": {
-  "fallos": 16,
+  "fallos": 17,
   "ultimo": "URLError"
  },
  "https://live20.bozztv.com/giatvplayout7/giatv-210394/tracks-v1a1/mono.ts.m3u8": {
-  "fallos": 16,
+  "fallos": 17,
   "ultimo": "URLError"
  },
  "https://lbgo.bozztv.com/ssh101/ssh101/monitvhd/playlist.m3u8": {
-  "fallos": 16,
+  "fallos": 17,
   "ultimo": "HTTP 502"
  },
  "https://live20.bozztv.com/akamaissh101/ssh101/cartoonclasico/playlist.m3u8": {
-  "fallos": 46,
+  "fallos": 47,
   "ultimo": "URLError"
  },
  "https://627bb251f23c7.streamlock.net:444/ExtremaKids/ExtremaKids/playlist.m3u8": {
@@ -84,7 +84,7 @@
   "ultimo": "HTTP 200"
  },
  "https://pistream.ddns.net/hls/stream.m3u8": {
-  "fallos": 12,
+  "fallos": 13,
   "ultimo": "URLError"
  },
  "https://vtm2.msinteractiva.com/lamil35/lamil35/playlist.m3u8": {
@@ -148,15 +148,15 @@
   "ultimo": "HTTP 403, posible bloqueo por pais"
  },
  "https://live20.bozztv.com/giatv/giatv-canal30tda/canal30tda/chunks.m3u8": {
-  "fallos": 16,
+  "fallos": 17,
   "ultimo": "URLError"
  },
  "https://live20.bozztv.com/akamaissh101/ssh101/somosentrerios/playlist.m3u8": {
-  "fallos": 16,
+  "fallos": 17,
   "ultimo": "URLError"
  },
  "https://live20.bozztv.com/akamaissh101/ssh101/canal8sanjuan/playlist.m3u8": {
-  "fallos": 16,
+  "fallos": 17,
   "ultimo": "URLError"
  },
  "https://unlimited1-cl-isp.dps.live/laclavetv/laclavetv.smil/playlist.m3u8": {
@@ -172,19 +172,19 @@
   "ultimo": "HTTP 200"
  },
  "https://lbgo.bozztv.com/ssh101/ssh101/verycoolfgr/playlist.m3u8": {
-  "fallos": 16,
+  "fallos": 17,
   "ultimo": "HTTP 502"
  },
  "https://live20.bozztv.com/giatv/giatv-KMKTV/KMKTV/chunks.m3u8": {
-  "fallos": 16,
+  "fallos": 17,
   "ultimo": "URLError"
  },
  "https://live20.bozztv.com/akamaissh101/ssh101/gextvaccess/playlist.m3u8": {
-  "fallos": 16,
+  "fallos": 17,
   "ultimo": "URLError"
  },
  "https://lbgo.bozztv.com/ssh101/ssh101/montonestv1/playlist.m3u8": {
-  "fallos": 16,
+  "fallos": 17,
   "ultimo": "HTTP 502"
  },
  "https://www.youtube.com/live/434nAi7ibV4": {
@@ -193,7 +193,7 @@
   "video_id": "434nAi7ibV4"
  },
  "https://www.youtube.com/live/zpfvKzuCB-k": {
-  "fallos": 22,
+  "fallos": 23,
   "ultimo": "no esta transmitiendo en vivo",
   "video_id": "zpfvKzuCB-k"
  },
@@ -209,7 +209,7 @@
  },
  "https://www.youtube.com/@lanacion": {
   "fallos": 0,
-  "ultimo": "LN+ EN VIVO | Últimas noticias de Argentina y el mundo [FEWZjXJ7M0c, ID nuevo]",
+  "ultimo": "LN+ EN VIVO | Últimas noticias de Argentina y el mundo [FEWZjXJ7M0c]",
   "video_id": "FEWZjXJ7M0c"
  },
  "https://www.youtube.com/@cronicatv": {
