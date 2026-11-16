@@ -11,6 +11,8 @@ https://live2.tensila.com/1-1-1.power-tv/hls/live/mystream.m3u8
 https://stream.enlineatv.net/hls/retromusic/index.m3u8
 #EXTINF:-1 tvg-id="ExtremaKidsTV.cr" tvg-country="CR" tvg-logo="" group-title="Animación",Extrema Kids TV
 https://627bb251f23c7.streamlock.net:444/ExtremaKids/ExtremaKids/playlist.m3u8
+#EXTINF:-1 tvg-id="GikTVMX.mx" tvg-country="MX" tvg-logo="" group-title="Animación",GikTVMX
+https://pistream.ddns.net/hls/stream.m3u8
 #EXTINF:-1 tvg-id="LAMIL35TV.ar" tvg-country="AR" tvg-logo="" group-title="Animación",LAMIL35 TV
 https://vtm2.msinteractiva.com/lamil35/lamil35/playlist.m3u8
 #EXTINF:-1 tvg-id="TigueritoTV.do" tvg-country="DO" tvg-logo="" group-title="Animación",Tiguerito TV
@@ -64,7 +66,7 @@ plugin://plugin.video.youtube/play/?video_id=iaooxPL8G_I
 #EXTINF:-1 tvg-logo="" group-title="YouTube Noticias",América TV Internacional
 plugin://plugin.video.youtube/play/?video_id=zcWXboTnous
 #EXTINF:-1 tvg-logo="" group-title="YouTube Noticias",Canal Rural
-plugin://plugin.video.youtube/play/?video_id=w78Zr0J-dIs
+plugin://plugin.video.youtube/play/?video_id=MeNuyDfduwU
 #EXTINF:-1 tvg-logo="" group-title="YouTube Animación",Tom y Jerry Clásicos
 plugin://plugin.video.youtube/play/?video_id=400k2SKoeh4
 #EXTINF:-1 tvg-logo="" group-title="YouTube Animación",Popeye
