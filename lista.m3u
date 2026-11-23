@@ -39,8 +39,6 @@ https://mdstrm.com/live-stream-playlist/6931a0eb06778645348008e0.m3u8
 https://g1.mc-hor.transport.edge-access.net/a12/ngrp:canal10mdq-100044_all/Playlist.m3u8?sense=true
 #EXTINF:-1 tvg-id="CarasTV.ar" tvg-logo="" group-title="Argentina",Caras TV
 https://unlimited1-us.dps.live/carastv/carastv.smil/playlist.m3u8
-#EXTINF:-1 tvg-id="NETTV.ar" tvg-logo="" group-title="Argentina",NET TV
-http://45.134.141.161:2200/ARG/Net_TV/index.m3u8
 #EXTINF:-1 tvg-id="TelefeTucuman.ar" tvg-logo="" group-title="Argentina",Telefe Tucumán
 https://g2.mc-hor.transport.edge-access.net/a05/ngrp:elochotv-100168_all/Playlist.m3u8?sense=true
 #EXTINF:-1 tvg-id="LaClave.cl" tvg-logo="" group-title="Música",La Clave
