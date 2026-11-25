@@ -51,8 +51,6 @@ https://mdstrm.com/live-stream-playlist/67ed8a8d6db4af9a0188555c.m3u8
 https://unlimited2-cl-isp.dps.live/pudahueltv/pudahueltv.smil/playlist.m3u8
 #EXTINF:-1 tvg-logo="" group-title="YouTube Anime",Yu-Gi-Oh! Duel Monsters
 plugin://plugin.video.youtube/play/?video_id=434nAi7ibV4
-#EXTINF:-1 tvg-logo="" group-title="YouTube Anime",Yu-Gi-Oh! GX
-plugin://plugin.video.youtube/play/?video_id=zpfvKzuCB-k
 #EXTINF:-1 tvg-logo="" group-title="YouTube Noticias",TN
 plugin://plugin.video.youtube/play/?video_id=cb12KmMMDJA
 #EXTINF:-1 tvg-logo="" group-title="YouTube Noticias",C5N
@@ -63,12 +61,10 @@ plugin://plugin.video.youtube/play/?video_id=FEWZjXJ7M0c
 plugin://plugin.video.youtube/play/?video_id=hw4uHyct4vg
 #EXTINF:-1 tvg-logo="" group-title="YouTube Noticias",Telefe Noticias
 plugin://plugin.video.youtube/play/?video_id=XhAYcYpPzTc
-#EXTINF:-1 tvg-logo="" group-title="YouTube Noticias",Canal 26
-plugin://plugin.video.youtube/play/?video_id=iaooxPL8G_I
 #EXTINF:-1 tvg-logo="" group-title="YouTube Noticias",América TV Internacional
 plugin://plugin.video.youtube/play/?video_id=zcWXboTnous
 #EXTINF:-1 tvg-logo="" group-title="YouTube Noticias",Canal Rural
-plugin://plugin.video.youtube/play/?video_id=1yZShk2NPJ8
+plugin://plugin.video.youtube/play/?video_id=w78Zr0J-dIs
 #EXTINF:-1 tvg-logo="" group-title="YouTube Animación",Tom y Jerry Clásicos
 plugin://plugin.video.youtube/play/?video_id=400k2SKoeh4
 #EXTINF:-1 tvg-logo="" group-title="YouTube Animación",Popeye
