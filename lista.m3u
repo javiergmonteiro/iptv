@@ -27,8 +27,6 @@ https://cdnlive.klicgo.net/maxanime/live/playlist.m3u8
 https://amg00627-amg00627c30-rakuten-es-3990.playouts.now.amagi.tv/playlist/amg00627-banijayfast-mrbeanescc-rakutenes/playlist.m3u8
 #EXTINF:-1 tvg-id="DisneyChannelLatinoAmerica" tvg-country="" tvg-logo="" group-title="Animation",Disney Channel
 https://iptv-org.github.io/channels/ar/DisneyChannelLatinAmerica
-#EXTINF:-1 tvg-id="A24.ar" tvg-logo="" group-title="Argentina",A24
-http://138.59.227.20:8000/play/a05u/index.m3u8
 #EXTINF:-1 tvg-id="ElTrece.ar" tvg-logo="" group-title="Argentina",El Trece
 https://livetrx01.vodgc.net/eltrecetv/index.m3u8|Referer=https://vodgc.net
 #EXTINF:-1 tvg-id="TyCSports.ar" tvg-logo="" group-title="Argentina",TyC Sports
@@ -51,16 +49,20 @@ https://mdstrm.com/live-stream-playlist/67ed8a8d6db4af9a0188555c.m3u8
 https://unlimited2-cl-isp.dps.live/pudahueltv/pudahueltv.smil/playlist.m3u8
 #EXTINF:-1 tvg-logo="" group-title="YouTube Anime",Yu-Gi-Oh! Duel Monsters
 plugin://plugin.video.youtube/play/?video_id=434nAi7ibV4
+#EXTINF:-1 tvg-logo="" group-title="YouTube Anime",Yu-Gi-Oh! GX
+plugin://plugin.video.youtube/play/?video_id=zpfvKzuCB-k
 #EXTINF:-1 tvg-logo="" group-title="YouTube Noticias",TN
 plugin://plugin.video.youtube/play/?video_id=cb12KmMMDJA
 #EXTINF:-1 tvg-logo="" group-title="YouTube Noticias",C5N
 plugin://plugin.video.youtube/play/?video_id=rZtTUCxpPuI
 #EXTINF:-1 tvg-logo="" group-title="YouTube Noticias",LN+
-plugin://plugin.video.youtube/play/?video_id=l9T3hoTNyAk
+plugin://plugin.video.youtube/play/?video_id=FEWZjXJ7M0c
 #EXTINF:-1 tvg-logo="" group-title="YouTube Noticias",Crónica TV
 plugin://plugin.video.youtube/play/?video_id=hw4uHyct4vg
 #EXTINF:-1 tvg-logo="" group-title="YouTube Noticias",Telefe Noticias
 plugin://plugin.video.youtube/play/?video_id=XhAYcYpPzTc
+#EXTINF:-1 tvg-logo="" group-title="YouTube Noticias",Canal 26
+plugin://plugin.video.youtube/play/?video_id=iaooxPL8G_I
 #EXTINF:-1 tvg-logo="" group-title="YouTube Noticias",América TV Internacional
 plugin://plugin.video.youtube/play/?video_id=zcWXboTnous
 #EXTINF:-1 tvg-logo="" group-title="YouTube Noticias",Canal Rural
