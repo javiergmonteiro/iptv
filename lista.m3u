@@ -52,7 +52,7 @@ plugin://plugin.video.youtube/play/?video_id=cb12KmMMDJA
 #EXTINF:-1 tvg-logo="" group-title="YouTube Noticias",C5N
 plugin://plugin.video.youtube/play/?video_id=rZtTUCxpPuI
 #EXTINF:-1 tvg-logo="" group-title="YouTube Noticias",LN+
-plugin://plugin.video.youtube/play/?video_id=zAUJv-X3OP8
+plugin://plugin.video.youtube/play/?video_id=FEWZjXJ7M0c
 #EXTINF:-1 tvg-logo="" group-title="YouTube Noticias",Crónica TV
 plugin://plugin.video.youtube/play/?video_id=hw4uHyct4vg
 #EXTINF:-1 tvg-logo="" group-title="YouTube Noticias",Telefe Noticias
@@ -60,7 +60,7 @@ plugin://plugin.video.youtube/play/?video_id=XhAYcYpPzTc
 #EXTINF:-1 tvg-logo="" group-title="YouTube Noticias",América TV Internacional
 plugin://plugin.video.youtube/play/?video_id=zcWXboTnous
 #EXTINF:-1 tvg-logo="" group-title="YouTube Noticias",Canal Rural
-plugin://plugin.video.youtube/play/?video_id=w78Zr0J-dIs
+plugin://plugin.video.youtube/play/?video_id=E5ubDCTGLv0
 #EXTINF:-1 tvg-logo="" group-title="YouTube Animación",Tom y Jerry Clásicos
 plugin://plugin.video.youtube/play/?video_id=400k2SKoeh4
 #EXTINF:-1 tvg-logo="" group-title="YouTube Animación",Popeye
